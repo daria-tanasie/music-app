@@ -5,6 +5,7 @@ import checker.CheckerConstants;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import fileio.input.LibraryInput;
 
 import java.io.File;
@@ -74,6 +75,10 @@ public final class Main {
         ArrayNode outputs = objectMapper.createArrayNode();
 
         // TODO add your implementation
+
+//        ObjectNode firstBookingDetails = objectMapper.createObjectNode();
+//        firstBookingDetails.put("firstname", "Jim");
+//        outputs.add(firstBookingDetails);
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);
