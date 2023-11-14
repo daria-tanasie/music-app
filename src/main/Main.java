@@ -63,7 +63,7 @@ public final class Main {
             File out = new File(filepath);
             boolean isCreated = out.createNewFile();
             if (isCreated) {
-                action(CheckerConstants.TESTS_PATH + file.getName(), filepath);
+                action(file.getName(), filepath);
             }
         }
 
@@ -85,23 +85,13 @@ public final class Main {
         // TODO add your implementation
 
         Library lib = objectMapper.readValue(new File(LIBRARY_PATH), Library.class);
-        ArrayList<Songs> songs = lib.getSongs();
+        CommandsInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH +filePathInput), CommandsInput[].class);
 
-//        for(Songs song : songs) {
-//            System.out.println(song.getName());
-//        }
-
-        CommandsInput[] commands = objectMapper.readValue(new File(filePathInput), CommandsInput[].class);
-        Menu menu = new Menu(commands, outputs, lib);
+        Menu menu = new Menu(commands, filePathOutput, lib);
         menu.actionsSpotify();
-//       outputs.add(menu.getOutput());
-//        CommandsOutput[] commandsOutputs = new CommandsOutput[commands.length];
-//        for(CommandsOutput cmd : commandsOutputs) {
-//            cmd = menu.actionsSpotify();
-//        }
 
 
-        ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
-        objectWriter.writeValue(new File(filePathOutput), outputs);
+//        ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
+//        objectWriter.writeValue(new File(filePathOutput), outputs);
     }
 }

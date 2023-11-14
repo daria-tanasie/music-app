@@ -2,13 +2,15 @@ package main.spotify.commands;
 
 import java.util.ArrayList;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter @Setter @JsonInclude(JsonInclude.Include.NON_NULL)
 public class CommandsOutput {
     private String command;
-    private String username;
+    private String user;
     private int timestamp;
     private String message;
     public ArrayList<String> results;
@@ -19,7 +21,7 @@ public class CommandsOutput {
     public CommandsOutput(String command, String username, int timestamp,
                            String message, ArrayList<String> results) {
         this.command = command;
-        this.username = username;
+        this.user = username;
         this.timestamp = timestamp;
         this.message = message;
         this.results = results;
