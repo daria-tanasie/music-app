@@ -5,14 +5,20 @@ import checker.CheckerConstants;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import fileio.input.LibraryInput;
+//import fileio.input.SongInput;
+//import Library;
+import main.spotify.data.Library;
+import main.spotify.data.Songs;
+import main.spotify.commands.CommandsInput;
+
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Objects;
 
 /**
@@ -55,7 +61,7 @@ public final class Main {
             File out = new File(filepath);
             boolean isCreated = out.createNewFile();
             if (isCreated) {
-                action(file.getName(), filepath);
+                action(CheckerConstants.TESTS_PATH + file.getName(), filepath);
             }
         }
 
@@ -76,9 +82,19 @@ public final class Main {
 
         // TODO add your implementation
 
-//        ObjectNode firstBookingDetails = objectMapper.createObjectNode();
-//        firstBookingDetails.put("firstname", "Jim");
-//        outputs.add(firstBookingDetails);
+        Library lib = objectMapper.readValue(new File(LIBRARY_PATH), Library.class);
+        ArrayList<Songs> songs = lib.getSongs();
+
+//        for(Songs song : songs) {
+//            System.out.println(song.getName());
+//        }
+
+        CommandsInput[] commands = objectMapper.readValue(new File(filePathInput), CommandsInput[].class);
+
+        for(CommandsInput command : commands) {
+            outputs.add(command.getCommand());
+        }
+
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);

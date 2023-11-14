@@ -1,3 +1,1 @@
-[ {
-  "firstname" : "Jim"
-} ]
+[ "search", "select", "load", "addRemoveInPlaylist", "search", "select", "load", "createPlaylist", "addRemoveInPlaylist", "search", "addRemoveInPlaylist", "createPlaylist", "search", "select", "load", "addRemoveInPlaylist", "search", "like", "select", "load", "like", "showPlaylists" ]

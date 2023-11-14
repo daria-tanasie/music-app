@@ -1,2 +1,17 @@
 Starting audit...
+[ERROR] D:\poo\tema\etapa1\.\src\main\Main.java:8:8: Unused import - com.fasterxml.jackson.databind.node.ObjectNode. [UnusedImports]
+[ERROR] D:\poo\tema\etapa1\.\src\main\Main.java:92:9: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\poo\tema\etapa1\.\src\main\Main.java:98:9: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Data.java:28:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Episodes.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Library.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Library.java:3:8: Unused import - fileio.input.LibraryInput. [UnusedImports]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Library.java:4:1: Redundant import from the same package - main.spotify.data.Songs. [RedundantImport]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Library.java:5:1: Redundant import from the same package - main.spotify.data.Podcasts. [RedundantImport]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Library.java:6:1: Redundant import from the same package - main.spotify.data.Users. [RedundantImport]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Podcasts.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\data\Users.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\search_bar\Commands.java:3:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\search_bar\Commands.java:21:25: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
+Checkstyle ends with 14 errors.

@@ -1,4 +1,4 @@
-package main.spotify;
+package main.spotify.data;
 
 import fileio.input.SongInput;
 import fileio.input.UserInput;
@@ -10,6 +10,8 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+
+@Getter @Setter
 public final class Data {
     private List<SongInput> songs = new ArrayList<>();
     private List<PodcastInput> podcasts = new ArrayList<>();
