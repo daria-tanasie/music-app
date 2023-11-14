@@ -11,7 +11,7 @@ public class CommandsOutput {
     private String username;
     private int timestamp;
     private String message;
-    private ArrayList<String> results;
+    public ArrayList<String> results;
 
     public CommandsOutput() {
     }

@@ -8,6 +8,8 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import fileio.input.LibraryInput;
 //import fileio.input.SongInput;
 //import Library;
+import main.spotify.actions.Menu;
+import main.spotify.commands.CommandsOutput;
 import main.spotify.data.Library;
 import main.spotify.data.Songs;
 import main.spotify.commands.CommandsInput;
@@ -90,10 +92,13 @@ public final class Main {
 //        }
 
         CommandsInput[] commands = objectMapper.readValue(new File(filePathInput), CommandsInput[].class);
-
-        for(CommandsInput command : commands) {
-            outputs.add(command.getCommand());
-        }
+        Menu menu = new Menu(commands, outputs, lib);
+        menu.actionsSpotify();
+//       outputs.add(menu.getOutput());
+//        CommandsOutput[] commandsOutputs = new CommandsOutput[commands.length];
+//        for(CommandsOutput cmd : commandsOutputs) {
+//            cmd = menu.actionsSpotify();
+//        }
 
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();

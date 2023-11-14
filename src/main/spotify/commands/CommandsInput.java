@@ -10,14 +10,14 @@ public class CommandsInput {
     private String username;
     private int timestamp;
     private String type;
-    private Filters filters;
     private int itemNumber;
     private String playlistName;
     private int playlistId;
     private int seed;
+    private Filters filters;
 
     @Getter @Setter
-    public class Filters{
+    public static class Filters{
         private List<String> tags;
         private String lyrics;
         private String owner;
@@ -27,10 +27,4 @@ public class CommandsInput {
         private String releaseYear;
         private String genre;
     }
-
-//    @Getter @Setter
-//    public class Select extends Commands {
-//        private int itemNumber;
-//    }
-
 }
