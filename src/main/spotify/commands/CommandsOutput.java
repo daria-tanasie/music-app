@@ -14,6 +14,16 @@ public class CommandsOutput {
     private int timestamp;
     private String message;
     public ArrayList<String> results;
+    private Stats stats;
+
+    @Getter @Setter
+    public static class Stats{
+        private String name;
+        private int remainedTime;
+        private String repeat;
+        private boolean shuffle;
+        private boolean paused;
+    }
 
     public CommandsOutput() {
     }

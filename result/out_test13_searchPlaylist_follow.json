@@ -1,0 +1,93 @@
+[ {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 470,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 490,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 570,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 590,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 600,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 870,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 890,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+} ]

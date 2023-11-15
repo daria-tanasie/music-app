@@ -1,0 +1,3088 @@
+[ {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 325,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 330,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 335,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 350,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 355,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 360,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 375,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 380,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 385,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 425,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 430,
+  "message" : "Successfully selected Sad But True."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 435,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 475,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 480,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 485,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 500,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 505,
+  "message" : "Successfully selected Delicate."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 510,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 525,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 530,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 535,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 550,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 555,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 560,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 625,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 630,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 635,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 675,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 680,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 685,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 700,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 705,
+  "message" : "Successfully selected Paint It Black."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 710,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 725,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 730,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 735,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 800,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 805,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 810,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 825,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 830,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 835,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 850,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 855,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 860,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 875,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 880,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 885,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 925,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 930,
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 935,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 975,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 980,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 985,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1000,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1005,
+  "message" : "Successfully selected Maps."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1010,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1025,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1030,
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1035,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1050,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1055,
+  "message" : "Successfully selected Maps."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1060,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1075,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1080,
+  "message" : "Successfully selected Delicate."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1085,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1100,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1105,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1110,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1125,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1130,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1135,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1150,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1155,
+  "message" : "Successfully selected Money Trees."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1160,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1200,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1205,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1210,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1275,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1280,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1285,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1350,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1355,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1360,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1425,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1430,
+  "message" : "Successfully selected Maps."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1435,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1450,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1455,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1460,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1475,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1480,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1485,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1500,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1505,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1510,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1525,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1530,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1535,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1550,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1555,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1560,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1600,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1605,
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1610,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1650,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1655,
+  "message" : "Successfully selected Money Trees."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1660,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1675,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1680,
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1685,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1725,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1730,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1735,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1850,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1855,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1860,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1875,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1880,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1885,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1900,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1905,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1910,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1925,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1930,
+  "message" : "Successfully selected Sad But True."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1935,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1950,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1955,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1960,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1975,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1980,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1985,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2000,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2005,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2010,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2025,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2030,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2035,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2075,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2080,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2085,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2100,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2105,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2110,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2200,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2205,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2210,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2250,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2255,
+  "message" : "Successfully selected Maps."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2260,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2300,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2305,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2310,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2325,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2330,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2335,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2350,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2355,
+  "message" : "Successfully selected Love Story."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2360,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2375,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2380,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2385,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2425,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2430,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2435,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2450,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2455,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2460,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2475,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2480,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2485,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2525,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2530,
+  "message" : "Successfully selected Delicate."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2535,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2575,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2580,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2585,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2600,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2605,
+  "message" : "Successfully selected Whatever You Need."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2610,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2625,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2630,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2635,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2650,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2655,
+  "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2660,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2675,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2680,
+  "message" : "Successfully selected Love Story."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2685,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2700,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2705,
+  "message" : "Successfully selected Paint It Black."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2710,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2750,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2755,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2760,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2850,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 2855,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 2860,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2875,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 2880,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 2885,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2900,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 2905,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 2910,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3025,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3030,
+  "message" : "Successfully selected Love Story."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3035,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3050,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3055,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3060,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3075,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3080,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3085,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3125,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3130,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3135,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3250,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3255,
+  "message" : "Successfully selected Big Pimpin'."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3260,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3350,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3355,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3360,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3425,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3430,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3435,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3500,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3505,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3510,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3525,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3530,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3535,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3600,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3605,
+  "message" : "Successfully selected Love Story."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3610,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3625,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3630,
+  "message" : "Successfully selected Whatever You Need."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3635,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3650,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3655,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3660,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3675,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3680,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3685,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3700,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3705,
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3710,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3725,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3730,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3735,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3775,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3780,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3785,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3825,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 3830,
+  "message" : "Successfully selected Maps."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 3835,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3850,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 3855,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 3860,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3875,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 3880,
+  "message" : "Successfully selected Whatever You Need."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 3885,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3900,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 3905,
+  "message" : "Successfully selected Money Trees."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 3910,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3925,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 3930,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 3935,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4000,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4005,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4010,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4025,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4030,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4035,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4075,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4080,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4085,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4100,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4105,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4110,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4125,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4130,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4135,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4150,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4155,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4160,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4200,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4205,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4210,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4225,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4230,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4235,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4250,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4255,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4260,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4275,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4280,
+  "message" : "Successfully selected Paint It Black."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4285,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4325,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4330,
+  "message" : "Successfully selected Maps."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4335,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4350,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4355,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4360,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4375,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4380,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4385,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4475,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4480,
+  "message" : "Successfully selected Big Pimpin'."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4485,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4500,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4505,
+  "message" : "Successfully selected Sad But True."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4510,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4550,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4555,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4560,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4575,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4580,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4585,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4625,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4630,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4635,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4675,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4680,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4685,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4725,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4730,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4735,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4775,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4780,
+  "message" : "Successfully selected Don't."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4785,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4800,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4805,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4810,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4825,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4830,
+  "message" : "Successfully selected Big Pimpin'."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4835,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4850,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4855,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4860,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4875,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4880,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4885,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4900,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4905,
+  "message" : "Successfully selected Blank Space."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4910,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4950,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4955,
+  "message" : "Successfully selected Money Trees."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4960,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4975,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4980,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4985,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5025,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5030,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5035,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5050,
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5055,
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5060,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5075,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5080,
+  "message" : "Successfully selected Big Pimpin'."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5085,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5100,
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5105,
+  "message" : "Successfully selected Love Story."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5110,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5125,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5130,
+  "message" : "Successfully selected Money Trees."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5135,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5175,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5180,
+  "message" : "Successfully selected Gimme Shelter."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5185,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5200,
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5205,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5210,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5225,
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5230,
+  "message" : "Successfully selected Sad But True."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5235,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5275,
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5280,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5285,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "playPause",
+  "user" : "david27",
+  "timestamp" : 5530,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "frank21",
+  "timestamp" : 5550,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "grace25",
+  "timestamp" : 5560,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "henry26",
+  "timestamp" : 5570,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "david27",
+  "timestamp" : 5630,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "irene33",
+  "timestamp" : 5680,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "emily30",
+  "timestamp" : 5740,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 5800,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "carol19",
+  "timestamp" : 5820,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 5900,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "henry26",
+  "timestamp" : 5970,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "henry26",
+  "timestamp" : 6070,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "carol19",
+  "timestamp" : 6120,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "david27",
+  "timestamp" : 6130,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 6200,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "carol19",
+  "timestamp" : 6220,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "irene33",
+  "timestamp" : 6280,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "david27",
+  "timestamp" : 6330,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 6500,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "carol19",
+  "timestamp" : 6520,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "david27",
+  "timestamp" : 6530,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "grace25",
+  "timestamp" : 6660,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "henry26",
+  "timestamp" : 6670,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "jack29",
+  "timestamp" : 6690,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "bob35",
+  "timestamp" : 6910,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "playPause",
+  "user" : "emily30",
+  "timestamp" : 6940,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "playPause",
+  "user" : "henry26",
+  "timestamp" : 6970,
+  "message" : "Playback paused successfully."
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "timestamp" : 0,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+} ]

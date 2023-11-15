@@ -6,21 +6,15 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import fileio.input.LibraryInput;
-//import fileio.input.SongInput;
-//import Library;
 import main.spotify.actions.Menu;
-import main.spotify.commands.CommandsOutput;
-import main.spotify.data.Library;
-import main.spotify.data.Songs;
 import main.spotify.commands.CommandsInput;
-
+import main.spotify.data.Library;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.Objects;
 
 /**
@@ -85,7 +79,7 @@ public final class Main {
         // TODO add your implementation
 
         Library lib = objectMapper.readValue(new File(LIBRARY_PATH), Library.class);
-        CommandsInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH +filePathInput), CommandsInput[].class);
+        CommandsInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), CommandsInput[].class);
 
         Menu menu = new Menu(commands, filePathOutput, lib);
         menu.actionsSpotify();

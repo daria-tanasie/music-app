@@ -1,4 +1,4 @@
-package main.spotify.search_bar;
+package main.spotify.actions.search_bar;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,8 +8,6 @@ import main.spotify.data.Podcasts;
 import main.spotify.data.Songs;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Objects;
 
 @Getter @Setter
