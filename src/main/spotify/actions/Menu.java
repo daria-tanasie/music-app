@@ -16,6 +16,7 @@ import main.spotify.actions.search_bar.Select;
 
 import lombok.Getter;
 import lombok.Setter;
+import main.spotify.data.Songs;
 import main.spotify.data.Users;
 
 import java.io.File;
@@ -45,7 +46,8 @@ public class Menu {
         boolean shuffle = false;
         String repeat = "No Repeat";
         String currentAudio = null;
-        int posSearch = 0;
+        String currentUser;
+        String selectedPlaylist;
         int curr = 0;
         int prev;
         int timePassed = 0;
@@ -56,11 +58,22 @@ public class Menu {
                     Search search = new Search(library.getSongs(), library.getPodcasts(), playlists);
                     search.execute(input[i], input[i].getFilters(), commandsOutput);
                     loaded = false;
-                    posSearch = i;
+                    //posSearch = i;
                 }
                 case "select" -> {
                     Select select = new Select();
                     currentAudio = select.execute(input[i], commandsOutput);
+                    if(currentAudio != null && isPlaylist(currentAudio, library)) {
+                        currentUser = input[i].getUsername();
+                        for(Playlists playlists1 : playlists) {
+                            if(currentAudio.equals(playlists1.getName()) && currentUser.equals(playlists1.getOwner())) {
+                                selectedPlaylist = playlists1.getName();
+                                if(playlists1.songs != null)
+                                    currentAudio = playlists1.songs.get(0).getName();
+                                break;
+                            }
+                        }
+                    }
                 }
                 case "load" -> {
                     Load load = new Load();
@@ -141,5 +154,16 @@ public class Menu {
                 return;
             }
         }
+    }
+
+    public boolean isPlaylist(String currentAudio, Library library) {
+        boolean isPlaylist = true;
+        for(Songs song : library.getSongs()) {
+            if (currentAudio.equals(song.getName())) {
+                isPlaylist = false;
+                break;
+            }
+        }
+        return isPlaylist;
     }
 }

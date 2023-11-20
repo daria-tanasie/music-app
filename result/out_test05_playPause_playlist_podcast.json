@@ -121,9 +121,36 @@
   "timestamp" : 3265,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3270,
+  "stats" : {
+    "name" : "Freedom",
+    "remainedTime" : 178,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3448,
+  "stats" : {
+    "name" : "Freedom",
+    "remainedTime" : 178,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 4000,
+  "stats" : {
+    "name" : "Freedom",
+    "remainedTime" : 178,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]

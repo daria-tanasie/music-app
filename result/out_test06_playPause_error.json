@@ -118,7 +118,16 @@
   "timestamp" : 4105,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 4170,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 168,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -126,5 +135,14 @@
   "message" : "Search returned 5 results",
   "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ]
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 4370,
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 188,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 } ]

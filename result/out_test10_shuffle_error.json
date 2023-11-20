@@ -147,19 +147,91 @@
   "timestamp" : 3140,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3150,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 221,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3200,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 171,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3250,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 121,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3270,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 101,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3320,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 51,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3370,
+  "stats" : {
+    "name" : "Blank Space",
+    "remainedTime" : 1,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3690,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3740,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]

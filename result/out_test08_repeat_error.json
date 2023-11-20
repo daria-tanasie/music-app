@@ -111,14 +111,41 @@
   "timestamp" : 3290,
   "message" : "Successfully selected My favourite songs."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3310,
+  "stats" : {
+    "name" : "99 Problems",
+    "remainedTime" : 119,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3400,
+  "stats" : {
+    "name" : "99 Problems",
+    "remainedTime" : 29,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "createPlaylist",
   "user" : "emily30",
   "timestamp" : 3405,
   "message" : "A playlist with the same name already exists."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3450,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]

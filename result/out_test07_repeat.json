@@ -185,17 +185,80 @@
   "timestamp" : 1028,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 1035,
+  "stats" : {
+    "name" : "99 Problems",
+    "remainedTime" : 227,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 1037,
+  "stats" : {
+    "name" : "99 Problems",
+    "remainedTime" : 225,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 2099,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 2101,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 2334,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 2336,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3600,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]

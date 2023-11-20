@@ -115,13 +115,49 @@
   "timestamp" : 650,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 655,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 207,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 690,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 172,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 711,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 151,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 713,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 149,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "search",
   "user" : "bob35",

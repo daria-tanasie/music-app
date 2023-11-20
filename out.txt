@@ -94,10 +94,20 @@
   "timestamp" : 80,
   "message" : "Please load a source before liking or unliking."
 }, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 85,
+  "message" : "Successfully selected Playlist alb pentru zile negre."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 86,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 90,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "showPlaylists",
   "user" : "emily30",
