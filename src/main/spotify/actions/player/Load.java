@@ -6,8 +6,8 @@ import main.spotify.commands.CommandsOutput;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class Load {
-    private CommandsOutput currentCommand = new CommandsOutput();
+public class Load extends CommandsInput{
+    private final CommandsOutput currentCommand = new CommandsOutput();
 
     public Load() {}
 

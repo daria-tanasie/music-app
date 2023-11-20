@@ -3,7 +3,6 @@ package main;
 import checker.Checker;
 import checker.CheckerConstants;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import fileio.input.LibraryInput;
 import main.spotify.actions.Menu;
@@ -79,8 +78,9 @@ public final class Main {
         // TODO add your implementation
 
         Library lib = objectMapper.readValue(new File(LIBRARY_PATH), Library.class);
-        CommandsInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), CommandsInput[].class);
-
+        CommandsInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH
+                                    + filePathInput), CommandsInput[].class);
+        
         Menu menu = new Menu(commands, filePathOutput, lib);
         menu.actionsSpotify();
 

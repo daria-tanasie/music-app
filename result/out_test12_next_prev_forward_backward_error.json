@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,
@@ -14,6 +19,11 @@
   "user" : "emily30",
   "timestamp" : 195,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -31,9 +41,16 @@
   "timestamp" : 300,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -45,6 +62,22 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1190,
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 1195,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "search",
   "user" : "emily30",

@@ -58,11 +58,16 @@
 }, {
   "timestamp" : 0
 }, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3215,
-  "message" : "Search returned 1 results",
-  "results" : [ "Freedom" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Freedom", "Freedom" ]
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -73,6 +78,11 @@
   "user" : "alice22",
   "timestamp" : 3225,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3230,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -90,7 +100,30 @@
   "timestamp" : 3245,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3250,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3255,
+  "message" : "Search returned 1 results",
+  "results" : [ "2010 hits" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3260,
+  "message" : "Successfully selected 2010 hits."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3265,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 } ]

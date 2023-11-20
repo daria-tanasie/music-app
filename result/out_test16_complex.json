@@ -1,7 +1,114 @@
 [ {
-  "timestamp" : 0,
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 100,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 110,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 120,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "david27",
+  "timestamp" : 130,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 140,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "frank21",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "grace25",
+  "timestamp" : 160,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "henry26",
+  "timestamp" : 170,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "irene33",
+  "timestamp" : 180,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "jack29",
+  "timestamp" : 190,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 200,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 210,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 220,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "david27",
+  "timestamp" : 230,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 240,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "frank21",
+  "timestamp" : 250,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "grace25",
+  "timestamp" : 260,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "henry26",
+  "timestamp" : 270,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "irene33",
+  "timestamp" : 280,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "jack29",
+  "timestamp" : 290,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 300,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 315,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -19,6 +126,11 @@
   "timestamp" : 335,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 350,
@@ -34,6 +146,11 @@
   "user" : "alice22",
   "timestamp" : 360,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 365,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -51,9 +168,31 @@
   "timestamp" : 385,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 390,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 400,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 405,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 410,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 415,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -71,9 +210,21 @@
   "timestamp" : 435,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 440,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 450,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 465,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -91,6 +242,11 @@
   "timestamp" : 485,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 490,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 500,
@@ -106,6 +262,11 @@
   "user" : "alice22",
   "timestamp" : 510,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 515,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -123,6 +284,11 @@
   "timestamp" : 535,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 550,
@@ -139,13 +305,52 @@
   "timestamp" : 560,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 565,
+  "message" : "Successfully added to playlist."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 575,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 580,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 585,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 590,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 600,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 605,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 610,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 615,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -163,9 +368,21 @@
   "timestamp" : 635,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 640,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 650,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 665,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -183,6 +400,11 @@
   "timestamp" : 685,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 690,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 700,
@@ -198,6 +420,11 @@
   "user" : "alice22",
   "timestamp" : 710,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 715,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -215,13 +442,52 @@
   "timestamp" : 735,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 740,
+  "message" : "Successfully added to playlist."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 750,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 755,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 760,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 765,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 775,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 780,
+  "message" : "Successfully selected Delicate."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 785,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 790,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -239,6 +505,11 @@
   "timestamp" : 810,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 815,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 825,
@@ -254,6 +525,11 @@
   "user" : "bob35",
   "timestamp" : 835,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 840,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -271,6 +547,11 @@
   "timestamp" : 860,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 865,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 875,
@@ -287,9 +568,21 @@
   "timestamp" : 885,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 890,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 900,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 915,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -307,9 +600,21 @@
   "timestamp" : 935,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 940,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 950,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 965,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -327,6 +632,11 @@
   "timestamp" : 985,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 990,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1000,
@@ -342,6 +652,11 @@
   "user" : "bob35",
   "timestamp" : 1010,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1015,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -359,6 +674,11 @@
   "timestamp" : 1035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1040,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1050,
@@ -374,6 +694,11 @@
   "user" : "bob35",
   "timestamp" : 1060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1065,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -391,6 +716,11 @@
   "timestamp" : 1085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1090,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1100,
@@ -406,6 +736,11 @@
   "user" : "bob35",
   "timestamp" : 1110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1115,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -423,6 +758,11 @@
   "timestamp" : 1135,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1140,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1150,
@@ -439,9 +779,31 @@
   "timestamp" : 1160,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1165,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1175,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1180,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1185,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1190,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -459,13 +821,32 @@
   "timestamp" : 1210,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1215,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1225,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1240,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1250,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1265,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -483,13 +864,52 @@
   "timestamp" : 1285,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1290,
+  "message" : "Successfully added to playlist."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1300,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1305,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1310,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1315,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1325,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1330,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1335,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1340,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -507,13 +927,42 @@
   "timestamp" : 1360,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1365,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1375,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1380,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1385,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1390,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1400,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1415,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -531,6 +980,11 @@
   "timestamp" : 1435,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1440,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1450,
@@ -546,6 +1000,11 @@
   "user" : "carol19",
   "timestamp" : 1460,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1465,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -563,6 +1022,11 @@
   "timestamp" : 1485,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1490,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1500,
@@ -578,6 +1042,11 @@
   "user" : "carol19",
   "timestamp" : 1510,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1515,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -595,6 +1064,11 @@
   "timestamp" : 1535,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1540,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1550,
@@ -611,9 +1085,31 @@
   "timestamp" : 1560,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1565,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1575,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1580,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1585,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1590,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -631,9 +1127,31 @@
   "timestamp" : 1610,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1615,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1625,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1630,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1635,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1640,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -651,6 +1169,11 @@
   "timestamp" : 1660,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1665,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1675,
@@ -667,9 +1190,31 @@
   "timestamp" : 1685,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1690,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1700,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1705,
+  "message" : "Successfully selected Castle on the Hill."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1710,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1715,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -687,21 +1232,84 @@
   "timestamp" : 1735,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1740,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1750,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1755,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1760,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1765,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1775,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1780,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 1785,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1790,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1800,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1815,
+  "message" : "The loaded source is not a song."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1825,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1830,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1835,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1840,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -719,6 +1327,11 @@
   "timestamp" : 1860,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1865,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1875,
@@ -734,6 +1347,11 @@
   "user" : "david27",
   "timestamp" : 1885,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1890,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -751,6 +1369,11 @@
   "timestamp" : 1910,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1915,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1925,
@@ -766,6 +1389,11 @@
   "user" : "david27",
   "timestamp" : 1935,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1940,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -783,6 +1411,11 @@
   "timestamp" : 1960,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1965,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1975,
@@ -798,6 +1431,11 @@
   "user" : "david27",
   "timestamp" : 1985,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1990,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -815,6 +1453,11 @@
   "timestamp" : 2010,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2015,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2025,
@@ -831,9 +1474,31 @@
   "timestamp" : 2035,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2040,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2050,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2055,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2060,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2065,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -851,6 +1516,11 @@
   "timestamp" : 2085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2090,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2100,
@@ -867,17 +1537,53 @@
   "timestamp" : 2110,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2115,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2125,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2130,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2135,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2140,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2150,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2165,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2175,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2190,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -895,9 +1601,21 @@
   "timestamp" : 2210,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2215,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2225,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2240,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -915,9 +1633,31 @@
   "timestamp" : 2260,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2265,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 2275,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 2280,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 2285,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2290,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -935,6 +1675,11 @@
   "timestamp" : 2310,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2315,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2325,
@@ -950,6 +1695,11 @@
   "user" : "emily30",
   "timestamp" : 2335,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2340,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -967,6 +1717,11 @@
   "timestamp" : 2360,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2365,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2375,
@@ -983,9 +1738,31 @@
   "timestamp" : 2385,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2390,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2400,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2405,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2410,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2415,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1003,6 +1780,11 @@
   "timestamp" : 2435,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2440,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2450,
@@ -1018,6 +1800,11 @@
   "user" : "emily30",
   "timestamp" : 2460,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2465,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1035,9 +1822,31 @@
   "timestamp" : 2485,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2490,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2500,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2505,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2510,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2515,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1055,9 +1864,31 @@
   "timestamp" : 2535,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2540,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2550,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2555,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2560,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2565,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1075,6 +1906,11 @@
   "timestamp" : 2585,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2590,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2600,
@@ -1090,6 +1926,11 @@
   "user" : "emily30",
   "timestamp" : 2610,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2615,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1107,6 +1948,11 @@
   "timestamp" : 2635,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2640,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2650,
@@ -1122,6 +1968,11 @@
   "user" : "emily30",
   "timestamp" : 2660,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2665,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1139,6 +1990,11 @@
   "timestamp" : 2685,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2690,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2700,
@@ -1155,9 +2011,31 @@
   "timestamp" : 2710,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2715,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2725,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2730,
+  "message" : "Successfully selected Castle on the Hill."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2735,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2740,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1175,17 +2053,63 @@
   "timestamp" : 2760,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2765,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2775,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2790,
+  "message" : "The loaded source is not a song."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2800,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 2805,
+  "message" : "Successfully selected Castle on the Hill."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 2810,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2815,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2825,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 2830,
+  "message" : "Successfully selected Castle on the Hill."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 2835,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2840,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1203,6 +2127,11 @@
   "timestamp" : 2860,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2865,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2875,
@@ -1218,6 +2147,11 @@
   "user" : "frank21",
   "timestamp" : 2885,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2890,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1235,21 +2169,64 @@
   "timestamp" : 2910,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2915,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2925,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 2930,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 2935,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2940,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2950,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2965,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 2975,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2990,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3000,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3015,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1267,6 +2244,11 @@
   "timestamp" : 3035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3040,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3050,
@@ -1282,6 +2264,11 @@
   "user" : "frank21",
   "timestamp" : 3060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3065,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1299,9 +2286,31 @@
   "timestamp" : 3085,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3090,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3100,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3105,
+  "message" : "Successfully selected Delicate."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3110,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3115,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1319,21 +2328,84 @@
   "timestamp" : 3135,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3140,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3150,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3155,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3160,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3165,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3175,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3180,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3185,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3190,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3200,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 3205,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 3210,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3215,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3225,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3240,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1351,17 +2423,43 @@
   "timestamp" : 3260,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3265,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 3275,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3290,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3300,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3315,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3325,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3340,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1379,13 +2477,42 @@
   "timestamp" : 3360,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3365,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3375,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3380,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3385,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3390,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3400,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3415,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1403,13 +2530,42 @@
   "timestamp" : 3435,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3440,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3450,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3465,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3475,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3480,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3485,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3490,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1427,6 +2583,11 @@
   "timestamp" : 3510,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3515,
+  "message" : "The loaded source is not a song."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3525,
@@ -1443,13 +2604,42 @@
   "timestamp" : 3535,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3540,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3550,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3565,
+  "message" : "The loaded source is not a song."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3575,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 3580,
+  "message" : "Successfully selected Black Dog."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 3585,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3590,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1467,6 +2657,11 @@
   "timestamp" : 3610,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3615,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3625,
@@ -1482,6 +2677,11 @@
   "user" : "grace25",
   "timestamp" : 3635,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3640,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1499,6 +2699,11 @@
   "timestamp" : 3660,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3665,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3675,
@@ -1514,6 +2719,11 @@
   "user" : "grace25",
   "timestamp" : 3685,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3690,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1531,6 +2741,11 @@
   "timestamp" : 3710,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3715,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3725,
@@ -1547,9 +2762,21 @@
   "timestamp" : 3735,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3740,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 3750,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3765,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -1567,9 +2794,21 @@
   "timestamp" : 3785,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3790,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3800,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3815,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1587,6 +2826,11 @@
   "timestamp" : 3835,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3840,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3850,
@@ -1602,6 +2846,11 @@
   "user" : "henry26",
   "timestamp" : 3860,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3865,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1619,6 +2868,11 @@
   "timestamp" : 3885,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3890,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3900,
@@ -1634,6 +2888,11 @@
   "user" : "henry26",
   "timestamp" : 3910,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3915,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1651,13 +2910,52 @@
   "timestamp" : 3935,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3940,
+  "message" : "Successfully removed from playlist."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3950,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 3955,
+  "message" : "Successfully selected Delicate."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 3960,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3965,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 3975,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 3980,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 3985,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3990,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1675,6 +2973,11 @@
   "timestamp" : 4010,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4015,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4025,
@@ -1691,9 +2994,31 @@
   "timestamp" : 4035,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4040,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4050,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 4055,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 4060,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4065,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1711,6 +3036,11 @@
   "timestamp" : 4085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4090,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4100,
@@ -1726,6 +3056,11 @@
   "user" : "henry26",
   "timestamp" : 4110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4115,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1743,6 +3078,11 @@
   "timestamp" : 4135,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4140,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4150,
@@ -1759,9 +3099,21 @@
   "timestamp" : 4160,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4165,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 4175,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4190,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1779,6 +3131,11 @@
   "timestamp" : 4210,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4215,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4225,
@@ -1794,6 +3151,11 @@
   "user" : "henry26",
   "timestamp" : 4235,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4240,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -1811,6 +3173,11 @@
   "timestamp" : 4260,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4265,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4275,
@@ -1827,9 +3194,21 @@
   "timestamp" : 4285,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4290,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4300,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4315,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -1847,6 +3226,11 @@
   "timestamp" : 4335,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4340,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4350,
@@ -1862,6 +3246,11 @@
   "user" : "irene33",
   "timestamp" : 4360,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4365,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -1879,17 +3268,63 @@
   "timestamp" : 4385,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4390,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4400,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4405,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4410,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4415,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4425,
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4440,
+  "message" : "The loaded source is not a song."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4450,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4455,
+  "message" : "Successfully selected Delicate."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4460,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4465,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -1907,6 +3342,11 @@
   "timestamp" : 4485,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4490,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4500,
@@ -1923,9 +3363,21 @@
   "timestamp" : 4510,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4515,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4525,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4540,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -1943,6 +3395,11 @@
   "timestamp" : 4560,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4565,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4575,
@@ -1959,9 +3416,31 @@
   "timestamp" : 4585,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4590,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4600,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4605,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4610,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4615,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -1979,9 +3458,31 @@
   "timestamp" : 4635,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4640,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4650,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 4655,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 4660,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4665,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -1999,9 +3500,21 @@
   "timestamp" : 4685,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4690,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4700,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4715,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2019,9 +3532,21 @@
   "timestamp" : 4735,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4740,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 4750,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4765,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2039,6 +3564,11 @@
   "timestamp" : 4785,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4790,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4800,
@@ -2054,6 +3584,11 @@
   "user" : "jack29",
   "timestamp" : 4810,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4815,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2071,6 +3606,11 @@
   "timestamp" : 4835,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4840,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4850,
@@ -2086,6 +3626,11 @@
   "user" : "jack29",
   "timestamp" : 4860,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4865,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2103,6 +3648,11 @@
   "timestamp" : 4885,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4890,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4900,
@@ -2119,9 +3669,31 @@
   "timestamp" : 4910,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4915,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 4925,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 4930,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 4935,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4940,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2139,6 +3711,11 @@
   "timestamp" : 4960,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4965,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4975,
@@ -2155,9 +3732,31 @@
   "timestamp" : 4985,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4990,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5000,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5005,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5010,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5015,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2175,6 +3774,11 @@
   "timestamp" : 5035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5040,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5050,
@@ -2190,6 +3794,11 @@
   "user" : "jack29",
   "timestamp" : 5060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5065,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2207,6 +3816,11 @@
   "timestamp" : 5085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5090,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5100,
@@ -2222,6 +3836,11 @@
   "user" : "jack29",
   "timestamp" : 5110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5115,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2239,9 +3858,31 @@
   "timestamp" : 5135,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5140,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5150,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5155,
+  "message" : "Successfully selected Dream On."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5160,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5165,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2259,6 +3900,11 @@
   "timestamp" : 5185,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5190,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5200,
@@ -2274,6 +3920,11 @@
   "user" : "jack29",
   "timestamp" : 5210,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5215,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2291,9 +3942,21 @@
   "timestamp" : 5235,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5250,
   "message" : "Search returned 0 results",
   "results" : [ ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5265,
+  "message" : "The loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -2311,778 +3974,2774 @@
   "timestamp" : 5285,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5290,
+  "message" : "Successfully removed from playlist."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "alice22",
+  "timestamp" : 5300,
+  "result" : [ {
+    "name" : "Classic Grooves Escape #2",
+    "songs" : [ "Sad But True", "Bohemian Rhapsody", "Start Me Up", "Shape of You", "Paint It Black", "Begin Again", "Black Dog" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Classic Grooves Escape #2",
+    "songs" : [ "Sad But True", "Bohemian Rhapsody", "Start Me Up", "Shape of You", "Paint It Black", "Begin Again", "Black Dog" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 5310,
+  "result" : [ {
+    "name" : "Dynamic Tracks Trek #2",
+    "songs" : [ "Bohemian Rhapsody", "Delicate", "Begin Again", "Money Trees", "Start Me Up", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Dynamic Tracks Trek #2",
+    "songs" : [ "Bohemian Rhapsody", "Delicate", "Begin Again", "Money Trees", "Start Me Up", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "carol19",
+  "timestamp" : 5320,
+  "result" : [ {
+    "name" : "Chill Grooves Quest #2",
+    "songs" : [ "Maps", "Black Dog", "Under Pressure", "Money Trees", "Castle on the Hill", "Gimme Shelter", "Shape of You", "Dream On" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Chill Grooves Quest #2",
+    "songs" : [ "Maps", "Black Dog", "Under Pressure", "Money Trees", "Castle on the Hill", "Gimme Shelter", "Shape of You", "Dream On" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "david27",
+  "timestamp" : 5330,
+  "result" : [ {
+    "name" : "Groovy Beats Expedition #2",
+    "songs" : [ "Sad But True", "Under Pressure", "Don't", "Maps" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Groovy Beats Expedition #2",
+    "songs" : [ "Sad But True", "Under Pressure", "Don't", "Maps" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "emily30",
+  "timestamp" : 5340,
+  "result" : [ {
+    "name" : "Electric Tunes Dream #2",
+    "songs" : [ "Bohemian Rhapsody", "Don't", "Blank Space", "Delicate", "Black Dog", "Whatever You Need", "Angie", "Paint It Black", "Castle on the Hill", "Begin Again" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Electric Tunes Dream #2",
+    "songs" : [ "Bohemian Rhapsody", "Don't", "Blank Space", "Delicate", "Black Dog", "Whatever You Need", "Angie", "Paint It Black", "Castle on the Hill", "Begin Again" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "frank21",
+  "timestamp" : 5350,
+  "result" : [ {
+    "name" : "Breezy Bangers Quest #2",
+    "songs" : [ "Gimme Shelter", "The Man", "Love Story", "Don't", "Delicate", "Blank Space", "Dream On", "Happier", "Big Pimpin'" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Breezy Bangers Quest #2",
+    "songs" : [ "Gimme Shelter", "The Man", "Love Story", "Don't", "Delicate", "Blank Space", "Dream On", "Happier", "Big Pimpin'" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "grace25",
+  "timestamp" : 5360,
+  "result" : [ {
+    "name" : "Electric Beats Escape #2",
+    "songs" : [ "Dream On", "Stairway to Heaven", "Gimme Shelter", "Black Dog", "Love Story", "Whatever You Need", "Begin Again", "The Unforgiven", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Electric Beats Escape #2",
+    "songs" : [ "Dream On", "Stairway to Heaven", "Gimme Shelter", "Black Dog", "Love Story", "Whatever You Need", "Begin Again", "The Unforgiven", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "henry26",
+  "timestamp" : 5370,
+  "result" : [ {
+    "name" : "Chill Tracks Safari #2",
+    "songs" : [ "Maps", "Whatever You Need", "Money Trees", "Delicate", "The Man", "Bohemian Rhapsody", "Start Me Up", "Gimme Shelter", "Black Dog", "Begin Again", "Paint It Black" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Chill Tracks Safari #2",
+    "songs" : [ "Maps", "Whatever You Need", "Money Trees", "Delicate", "The Man", "Bohemian Rhapsody", "Start Me Up", "Gimme Shelter", "Black Dog", "Begin Again", "Paint It Black" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "showPlaylists",
+  "user" : "irene33",
+  "timestamp" : 5380,
+  "result" : [ {
+    "name" : "Stellar Rhythms Safari #2",
+    "songs" : [ "Maps", "The Man", "Blank Space", "Delicate", "Big Pimpin'", "Sad But True", "Bohemian Rhapsody", "Dream On", "Under Pressure" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Stellar Rhythms Safari #2",
+    "songs" : [ "Maps", "The Man", "Blank Space", "Delicate", "Big Pimpin'", "Sad But True", "Bohemian Rhapsody", "Dream On", "Under Pressure" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "jack29",
+  "timestamp" : 5390,
+  "result" : [ {
+    "name" : "Mellow Tracks Safari #2",
+    "songs" : [ "The Man", "Blank Space", "Shape of You", "The Unforgiven", "Love Story", "Gimme Shelter", "Sad But True" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Mellow Tracks Safari #2",
+    "songs" : [ "The Man", "Blank Space", "Shape of You", "The Unforgiven", "Love Story", "Gimme Shelter", "Sad But True" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 5400,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 5401,
+  "message" : "Successfully selected Groovy Beats Quest #1."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 5402,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 5410,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 5411,
+  "message" : "Successfully selected Dynamic Tracks Trek #2."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 5412,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 5420,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 5421,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 5422,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 5430,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 5431,
+  "message" : "Successfully selected Electric Grooves Dream #1."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 5432,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 5440,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 5441,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 5442,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 5450,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 5451,
+  "message" : "Successfully selected Breezy Bangers Quest #2."
+}, {
+  "command" : "load",
+  "user" : "frank21",
+  "timestamp" : 5452,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 5460,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 5461,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "load",
+  "user" : "grace25",
+  "timestamp" : 5462,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 5470,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 5471,
+  "message" : "Successfully selected Vibey Tracks Safari #1."
+}, {
+  "command" : "load",
+  "user" : "henry26",
+  "timestamp" : 5472,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 5480,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 5481,
+  "message" : "Successfully selected Epic Tracks Safari #1."
+}, {
+  "command" : "load",
+  "user" : "irene33",
+  "timestamp" : 5482,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 5490,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 5491,
+  "message" : "Successfully selected Mellow Tracks Safari #2."
+}, {
+  "command" : "load",
+  "user" : "jack29",
+  "timestamp" : 5492,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 5500,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 5530,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "frank21",
   "timestamp" : 5550,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "grace25",
   "timestamp" : 5560,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 5570,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 5630,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "irene33",
   "timestamp" : 5680,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 5700,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "emily30",
   "timestamp" : 5740,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "jack29",
+  "timestamp" : 5790,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 5800,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 5820,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 5840,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 5900,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 5910,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 5920,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 5970,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "irene33",
+  "timestamp" : 5980,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 6020,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 6070,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 6100,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 6120,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6130,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 6200,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 6210,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 6220,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "irene33",
   "timestamp" : 6280,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 6310,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 6320,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6330,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "irene33",
+  "timestamp" : 6380,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 6400,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6450,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "jack29",
+  "timestamp" : 6490,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 6500,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 6520,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6530,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6550,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 6600,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 6630,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6650,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "grace25",
   "timestamp" : 6660,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 6670,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "jack29",
   "timestamp" : 6690,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 6710,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "irene33",
+  "timestamp" : 6780,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 6830,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "henry26",
+  "timestamp" : 6870,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "irene33",
+  "timestamp" : 6880,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "jack29",
+  "timestamp" : 6890,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "bob35",
   "timestamp" : 6910,
   "message" : "Playback paused successfully."
 }, {
+  "timestamp" : 0
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 6920,
+  "message" : "Loaded source is not a song."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
   "command" : "playPause",
   "user" : "emily30",
   "timestamp" : 6940,
   "message" : "Playback resumed successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 6970,
   "message" : "Playback paused successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 6990,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 6990,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7000,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7000,
+  "message" : "Successfully selected Epic Melodies Safari #1."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7010,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7010,
+  "message" : "Successfully selected Chill Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7020,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7020,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7030,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7030,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7040,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7040,
+  "message" : "Successfully selected Chill Grooves Quest #2."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7050,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7050,
+  "message" : "Successfully selected Dynamic Tracks Trek #2."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7060,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7060,
+  "message" : "Successfully selected Chill Grooves Quest #2."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7070,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7070,
+  "message" : "Successfully selected Electric Beats Escape #2."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7080,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7080,
+  "message" : "Successfully selected Classic Grooves Escape #2."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7090,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7090,
+  "message" : "Successfully selected Groovy Beats Expedition #2."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7100,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7100,
+  "message" : "Successfully selected Vibey Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7110,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7110,
+  "message" : "Successfully selected Classic Harmonies Quest #1."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7120,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7120,
+  "message" : "Successfully selected Groovy Beats Expedition #2."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7130,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7130,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7140,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7140,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7150,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7150,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7160,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7160,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7170,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7170,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7180,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7180,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7190,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7190,
+  "message" : "Successfully selected Classic Harmonies Quest #1."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7200,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7200,
+  "message" : "Successfully selected Vibey Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7210,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7210,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7220,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7220,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7230,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7230,
+  "message" : "Successfully selected Classic Grooves Escape #2."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7240,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7240,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7250,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7250,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7260,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7260,
+  "message" : "Successfully selected Breezy Bangers Quest #2."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7270,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7270,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7280,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7280,
+  "message" : "Successfully selected Stellar Rhythms Safari #2."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7290,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7290,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7300,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7300,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7310,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7310,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7320,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7320,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7330,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7330,
+  "message" : "Successfully selected Groovy Beats Dream #1."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7340,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7340,
+  "message" : "Successfully selected Epic Melodies Safari #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7350,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7350,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7360,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7360,
+  "message" : "Successfully selected Epic Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7370,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7370,
+  "message" : "Successfully selected Classic Harmonies Quest #1."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7380,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7380,
+  "message" : "Successfully selected Chill Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7390,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7390,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7400,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7400,
+  "message" : "Successfully selected Chill Grooves Quest #2."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7410,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7410,
+  "message" : "Successfully selected Groovy Beats Dream #1."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7420,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7420,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7430,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7430,
+  "message" : "Successfully selected Breezy Bangers Quest #2."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7440,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7440,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7450,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7450,
+  "message" : "Successfully selected Epic Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7460,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7460,
+  "message" : "Successfully selected Mellow Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7470,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7470,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7480,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7480,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7490,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7490,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7500,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7500,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7510,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7510,
+  "message" : "Successfully selected Dynamic Tracks Trek #2."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7520,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7520,
+  "message" : "Successfully selected Groovy Beats Dream #1."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7530,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7530,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7540,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7540,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7550,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7550,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7560,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7560,
+  "message" : "Successfully selected Epic Melodies Safari #1."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7570,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7570,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7580,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7580,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7590,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7590,
+  "message" : "Successfully selected Electric Grooves Dream #1."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7600,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7600,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7610,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7610,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7620,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7620,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7630,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7630,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7640,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7640,
+  "message" : "Successfully selected Epic Melodies Safari #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7650,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7650,
+  "message" : "Successfully selected Chill Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7660,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7660,
+  "message" : "Successfully selected Groovy Beats Expedition #2."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7670,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7670,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7680,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7680,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7690,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7690,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7700,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7700,
+  "message" : "Successfully selected Classic Harmonies Quest #1."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7710,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7710,
+  "message" : "Successfully selected Epic Melodies Safari #1."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7720,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7720,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7730,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7730,
+  "message" : "Successfully selected Dynamic Tracks Trek #2."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7740,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7740,
+  "message" : "Successfully selected Epic Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7750,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7750,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7760,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7760,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7770,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7770,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7780,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7780,
+  "message" : "Successfully selected Classic Harmonies Quest #1."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7790,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7790,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7800,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7800,
+  "message" : "Successfully selected Epic Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7810,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7810,
+  "message" : "Successfully selected Electric Beats Escape #2."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7820,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7820,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7830,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7830,
+  "message" : "Successfully selected Mellow Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7840,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7840,
+  "message" : "Successfully selected Groovy Beats Dream #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7850,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7850,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7860,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7860,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7870,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7870,
+  "message" : "Successfully selected Epic Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7880,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7880,
+  "message" : "Successfully selected Electric Tunes Dream #2."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7890,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7890,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 7900,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 7900,
+  "message" : "Successfully selected Electric Beats Escape #2."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 7910,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 7910,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 7920,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 7920,
+  "message" : "Successfully selected Chill Grooves Quest #2."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 7930,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7930,
+  "message" : "Successfully selected Electric Grooves Dream #1."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7940,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7940,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7950,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7950,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7960,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7960,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7970,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7970,
+  "message" : "Successfully selected Vibey Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7980,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 7980,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 7990,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 7990,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 8000,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 8000,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 8010,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 8010,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 8020,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 8020,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 8030,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 8030,
+  "message" : "Successfully selected Classic Grooves Escape #2."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 8040,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 8040,
+  "message" : "Successfully selected Electric Grooves Dream #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 8050,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 8050,
+  "message" : "Successfully selected Breezy Bangers Quest #2."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 8060,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 8060,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 8070,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 8070,
+  "message" : "Successfully selected Mellow Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 8080,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 8080,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 8090,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 8090,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 8100,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 8100,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 8110,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 8110,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 8120,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 8120,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 8130,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 8130,
+  "message" : "Successfully selected Groovy Beats Quest #1."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 8140,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 8140,
+  "message" : "Successfully selected Groovy Beats Quest #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 8150,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 8150,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 8160,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 8160,
+  "message" : "Successfully selected Classic Grooves Escape #2."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 8170,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 8170,
+  "message" : "Successfully selected Epic Tracks Safari #1."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 8180,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 8180,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 8190,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 8190,
+  "message" : "Successfully selected Electric Beats Escape #2."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 8200,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 8200,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 8210,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 8210,
+  "message" : "Successfully selected Mellow Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 8220,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 8220,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 8230,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 8230,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 8240,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 8240,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 8250,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 8250,
+  "message" : "Successfully selected Classic Grooves Escape #2."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 8260,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 8260,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 8270,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 8270,
+  "message" : "Successfully selected Electric Tunes Dream #2."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 8280,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 8280,
+  "message" : "Successfully selected Groovy Beats Quest #1."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 8290,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 8290,
+  "message" : "Successfully selected Dynamic Tracks Trek #2."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 8300,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 8300,
+  "message" : "Successfully selected Dynamic Tracks Trek #2."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 8310,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 8310,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 8320,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 8320,
+  "message" : "Successfully selected Dynamic Tracks Trek #2."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 8330,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 8330,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 8340,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 8340,
+  "message" : "Successfully selected Electric Bangers Dream #1."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 8350,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 8350,
+  "message" : "Successfully selected Groovy Beats Dream #1."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 8360,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 8360,
+  "message" : "Successfully selected Chill Grooves Quest #2."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 8370,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 8370,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 8380,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 8380,
+  "message" : "Successfully selected Chill Tracks Safari #2."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 8390,
+  "message" : "Search returned 2 results",
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 8390,
+  "message" : "Successfully selected Groovy Beats Dream #1."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 8400,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 8400,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 8410,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 8410,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 8420,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 8420,
+  "message" : "Successfully selected Electric Grooves Dream #1."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 8430,
+  "message" : "Search returned 2 results",
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 8430,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 8440,
+  "message" : "Search returned 2 results",
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 8440,
+  "message" : "Successfully selected Breezy Bangers Quest #2."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 8450,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 8450,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 8460,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 8460,
+  "message" : "Successfully selected Classic Tunes Dream #1."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 8470,
+  "message" : "Search returned 2 results",
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 8470,
+  "message" : "Successfully selected Electric Vibes Journey #1."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 8480,
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+}, {
+  "command" : "select",
+  "user" : "jack29",
+  "timestamp" : 8480,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "showPlaylists",
+  "user" : "alice22",
+  "timestamp" : 8490,
+  "result" : [ {
+    "name" : "Classic Grooves Escape #2",
+    "songs" : [ "Sad But True", "Bohemian Rhapsody", "Start Me Up", "Shape of You", "Paint It Black", "Begin Again", "Black Dog" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Classic Grooves Escape #2",
+    "songs" : [ "Sad But True", "Bohemian Rhapsody", "Start Me Up", "Shape of You", "Paint It Black", "Begin Again", "Black Dog" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "alice22",
+  "timestamp" : 8490,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 8500,
+  "result" : [ {
+    "name" : "Dynamic Tracks Trek #2",
+    "songs" : [ "Bohemian Rhapsody", "Delicate", "Begin Again", "Money Trees", "Start Me Up", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Dynamic Tracks Trek #2",
+    "songs" : [ "Bohemian Rhapsody", "Delicate", "Begin Again", "Money Trees", "Start Me Up", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "bob35",
+  "timestamp" : 8500,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "carol19",
+  "timestamp" : 8510,
+  "result" : [ {
+    "name" : "Chill Grooves Quest #2",
+    "songs" : [ "Maps", "Black Dog", "Under Pressure", "Money Trees", "Castle on the Hill", "Gimme Shelter", "Shape of You", "Dream On" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Chill Grooves Quest #2",
+    "songs" : [ "Maps", "Black Dog", "Under Pressure", "Money Trees", "Castle on the Hill", "Gimme Shelter", "Shape of You", "Dream On" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "carol19",
+  "timestamp" : 8510,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "david27",
+  "timestamp" : 8520,
+  "result" : [ {
+    "name" : "Groovy Beats Expedition #2",
+    "songs" : [ "Sad But True", "Under Pressure", "Don't", "Maps" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Groovy Beats Expedition #2",
+    "songs" : [ "Sad But True", "Under Pressure", "Don't", "Maps" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "david27",
+  "timestamp" : 8520,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "emily30",
+  "timestamp" : 8530,
+  "result" : [ {
+    "name" : "Electric Tunes Dream #2",
+    "songs" : [ "Bohemian Rhapsody", "Don't", "Blank Space", "Delicate", "Black Dog", "Whatever You Need", "Angie", "Paint It Black", "Castle on the Hill", "Begin Again" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Electric Tunes Dream #2",
+    "songs" : [ "Bohemian Rhapsody", "Don't", "Blank Space", "Delicate", "Black Dog", "Whatever You Need", "Angie", "Paint It Black", "Castle on the Hill", "Begin Again" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "emily30",
+  "timestamp" : 8530,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "frank21",
+  "timestamp" : 8540,
+  "result" : [ {
+    "name" : "Breezy Bangers Quest #2",
+    "songs" : [ "Gimme Shelter", "The Man", "Love Story", "Don't", "Delicate", "Blank Space", "Dream On", "Happier", "Big Pimpin'" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Breezy Bangers Quest #2",
+    "songs" : [ "Gimme Shelter", "The Man", "Love Story", "Don't", "Delicate", "Blank Space", "Dream On", "Happier", "Big Pimpin'" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "frank21",
+  "timestamp" : 8540,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "grace25",
+  "timestamp" : 8550,
+  "result" : [ {
+    "name" : "Electric Beats Escape #2",
+    "songs" : [ "Dream On", "Stairway to Heaven", "Gimme Shelter", "Black Dog", "Love Story", "Whatever You Need", "Begin Again", "The Unforgiven", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Electric Beats Escape #2",
+    "songs" : [ "Dream On", "Stairway to Heaven", "Gimme Shelter", "Black Dog", "Love Story", "Whatever You Need", "Begin Again", "The Unforgiven", "The Man" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "grace25",
+  "timestamp" : 8550,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "henry26",
+  "timestamp" : 8560,
+  "result" : [ {
+    "name" : "Chill Tracks Safari #2",
+    "songs" : [ "Maps", "Whatever You Need", "Money Trees", "Delicate", "The Man", "Bohemian Rhapsody", "Start Me Up", "Gimme Shelter", "Black Dog", "Begin Again", "Paint It Black" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Chill Tracks Safari #2",
+    "songs" : [ "Maps", "Whatever You Need", "Money Trees", "Delicate", "The Man", "Bohemian Rhapsody", "Start Me Up", "Gimme Shelter", "Black Dog", "Begin Again", "Paint It Black" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "henry26",
+  "timestamp" : 8560,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "irene33",
+  "timestamp" : 8570,
+  "result" : [ {
+    "name" : "Stellar Rhythms Safari #2",
+    "songs" : [ "Maps", "The Man", "Blank Space", "Delicate", "Big Pimpin'", "Sad But True", "Bohemian Rhapsody", "Dream On", "Under Pressure" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Stellar Rhythms Safari #2",
+    "songs" : [ "Maps", "The Man", "Blank Space", "Delicate", "Big Pimpin'", "Sad But True", "Bohemian Rhapsody", "Dream On", "Under Pressure" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "irene33",
+  "timestamp" : 8570,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "jack29",
+  "timestamp" : 8580,
+  "result" : [ {
+    "name" : "Mellow Tracks Safari #2",
+    "songs" : [ "The Man", "Blank Space", "Shape of You", "The Unforgiven", "Love Story", "Gimme Shelter", "Sad But True" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "Mellow Tracks Safari #2",
+    "songs" : [ "The Man", "Blank Space", "Shape of You", "The Unforgiven", "Love Story", "Gimme Shelter", "Sad But True" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPreferredSongs",
+  "user" : "jack29",
+  "timestamp" : 8580,
+  "result" : [ ]
 } ]

@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 50,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 100,
@@ -31,6 +36,11 @@
   "timestamp" : 213,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 215,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 250,
@@ -46,6 +56,11 @@
   "user" : "bob35",
   "timestamp" : 263,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 265,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -79,6 +94,11 @@
   "timestamp" : 513,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 515,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 550,
@@ -95,6 +115,11 @@
   "timestamp" : 563,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 565,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 3100,
@@ -106,7 +131,35 @@
     "paused" : true
   }
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 3110,
+  "message" : "Search returned 1 results",
+  "results" : [ "Colaj" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 3130,
+  "message" : "Successfully selected Colaj."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 3140,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 } ]

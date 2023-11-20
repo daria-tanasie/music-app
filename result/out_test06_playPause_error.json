@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3215,
@@ -14,6 +19,11 @@
   "user" : "emily30",
   "timestamp" : 3265,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3270,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -32,9 +42,11 @@
   "message" : "Search returned 2 results",
   "results" : [ "TED Talks Daily", "TED-Ed: Lessons Worth Sharing" ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3375,
+  "message" : "Search returned 1 results",
+  "results" : [ "LoFi music" ]
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -90,11 +102,29 @@
     "paused" : false
   }
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 4015,
+  "message" : "Search returned 1 results",
+  "results" : [ "LoFi music" ]
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 4060,
+  "message" : "Successfully selected LoFi music."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 4105,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 4295,
+  "message" : "Search returned 5 results",
+  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ]
+}, {
+  "timestamp" : 0
 } ]

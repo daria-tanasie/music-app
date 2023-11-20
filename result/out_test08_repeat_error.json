@@ -63,6 +63,11 @@
     "paused" : false
   }
 }, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3170,
@@ -90,7 +95,30 @@
     "paused" : false
   }
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3260,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3290,
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3405,
+  "message" : "A playlist with the same name already exists."
+}, {
+  "timestamp" : 0
 } ]

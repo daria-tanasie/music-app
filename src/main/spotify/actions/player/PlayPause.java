@@ -4,11 +4,9 @@ import main.spotify.commands.CommandsInput;
 import main.spotify.commands.CommandsOutput;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
-public class PlayPause {
-    private ArrayList<CommandsOutput> commandsOutputs;
-    private CommandsOutput currentCommand = new CommandsOutput();
+public class PlayPause extends CommandsInput{
+    private final CommandsOutput currentCommand = new CommandsOutput();
 
     public PlayPause() {}
 

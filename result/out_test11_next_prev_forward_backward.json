@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -15,9 +20,31 @@
   "timestamp" : 195,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 270,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 295,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 320,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -35,6 +62,11 @@
   "timestamp" : 420,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 440,
@@ -51,6 +83,11 @@
   "timestamp" : 446,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 480,
@@ -62,9 +99,29 @@
     "paused" : false
   }
 }, {
-  "timestamp" : 0,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 510,
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 650,
+  "message" : "Playback loaded successfully."
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
+}, {
+  "timestamp" : 0
 }, {
   "command" : "search",
   "user" : "bob35",

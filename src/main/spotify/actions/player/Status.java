@@ -1,6 +1,5 @@
 package main.spotify.actions.player;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import main.spotify.commands.CommandsInput;
@@ -12,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 @Getter @Setter
-public class Status {
+public class Status extends CommandsInput{
 
     private CommandsOutput currentCommand = new CommandsOutput();
 
@@ -21,7 +20,7 @@ public class Status {
     public void execute(int time, Library library, CommandsInput command, boolean paused, boolean shuffle,
                                         String repeat, String currentAudio, ArrayList<CommandsOutput> commandsOutputs) {
 
-        int duration = 0;
+        int duration;
         ArrayList<Songs> songs = library.getSongs();
         for(Songs song : songs) {
             if(Objects.equals(song.getName(), currentAudio)) {

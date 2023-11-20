@@ -1,93 +1,111 @@
 [ {
   "command" : "search",
-  "user" : "alice22",
-  "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "Shape of You" ]
+  "user" : "emily30",
+  "timestamp" : 5,
+  "message" : "Search returned 5 results",
+  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ]
 }, {
   "command" : "select",
-  "user" : "alice22",
-  "timestamp" : 15,
-  "message" : "Successfully selected Shape of You."
+  "user" : "emily30",
+  "timestamp" : 10,
+  "message" : "Successfully selected Big Pimpin'."
 }, {
   "command" : "load",
-  "user" : "alice22",
-  "timestamp" : 20,
+  "user" : "emily30",
+  "timestamp" : 15,
   "message" : "Playback loaded successfully."
 }, {
-  "command" : "status",
-  "user" : "alice22",
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 20,
+  "message" : "The specified playlist does not exist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
   "timestamp" : 25,
-  "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 228,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "message" : "Search returned 1 results",
+  "results" : [ "The Joe Rogan Experience" ]
 }, {
-  "command" : "playPause",
-  "user" : "alice22",
+  "command" : "select",
+  "user" : "emily30",
   "timestamp" : 30,
-  "message" : "Playback paused successfully."
+  "message" : "Successfully selected The Joe Rogan Experience."
 }, {
-  "command" : "status",
-  "user" : "alice22",
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 31,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
   "timestamp" : 35,
-  "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 218,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "message" : "Playlist created successfully."
 }, {
-  "command" : "status",
-  "user" : "alice22",
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
   "timestamp" : 40,
-  "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 213,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
+  "message" : "The loaded source is not a song."
 }, {
-  "command" : "playPause",
-  "user" : "alice22",
+  "command" : "search",
+  "user" : "emily30",
   "timestamp" : 45,
-  "message" : "Playback resumed successfully."
+  "message" : "Search returned 3 results",
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
 }, {
-  "command" : "status",
-  "user" : "alice22",
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
   "timestamp" : 50,
-  "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 203,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
-  "command" : "status",
-  "user" : "alice22",
+  "command" : "createPlaylist",
+  "user" : "emily30",
   "timestamp" : 55,
-  "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 198,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "message" : "A playlist with the same name already exists."
 }, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 1000,
-  "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : -747,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 60,
+  "message" : "Search returned 4 results",
+  "results" : [ "The Man", "Freedom", "Castle on the Hill", "Get Lucky" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 70,
+  "message" : "Successfully selected Get Lucky."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 71,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 72,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 75,
+  "message" : "Search returned 1 results",
+  "results" : [ "Playlist alb pentru zile negre" ]
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 80,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 90,
+  "message" : "Loaded source is not a song."
+}, {
+  "command" : "showPlaylists",
+  "user" : "emily30",
+  "timestamp" : 95,
+  "result" : [ {
+    "name" : "Playlist alb pentru zile negre",
+    "songs" : [ "Get Lucky" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
 } ]
