@@ -52,15 +52,20 @@
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3000,
+  "message" : "Please select a source before attempting to load."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3100,
   "stats" : {
-    "name" : "The Unforgiven",
-    "remainedTime" : 286,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "createPlaylist",
@@ -116,7 +121,7 @@
   "timestamp" : 3310,
   "stats" : {
     "name" : "99 Problems",
-    "remainedTime" : 119,
+    "remainedTime" : 214,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -127,7 +132,7 @@
   "timestamp" : 3400,
   "stats" : {
     "name" : "99 Problems",
-    "remainedTime" : 29,
+    "remainedTime" : 124,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -142,10 +147,10 @@
   "user" : "emily30",
   "timestamp" : 3450,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "99 Problems",
+    "remainedTime" : 74,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 } ]

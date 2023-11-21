@@ -17,6 +17,7 @@ public class Load extends CommandsInput{
         if(size == 0) {
             setCommand(currentCommand, command);
             currentCommand.setMessage("Please select a source before attempting to load.");
+            commandsOutputs.add(currentCommand);
             return;
         }
 
@@ -25,6 +26,7 @@ public class Load extends CommandsInput{
         if(!Objects.equals(lastComm.getCommand(), "select")) {
             setCommand(currentCommand, command);
             currentCommand.setMessage("Please select a source before attempting to load.");
+            commandsOutputs.add(currentCommand);
             return;
         }
 //         TODO "You can't load an empty audio collection!"

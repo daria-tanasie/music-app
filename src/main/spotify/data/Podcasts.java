@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public final class Podcasts {
     private String name;
     private String owner;
-    private ArrayList<EpisodeInput> episodes;
+    private ArrayList<Episodes> episodes;
 
     public Podcasts() {
     }
@@ -28,11 +28,11 @@ public final class Podcasts {
         this.owner = owner;
     }
 
-    public ArrayList<EpisodeInput> getEpisodes() {
+    public ArrayList<Episodes> getEpisodes() {
         return episodes;
     }
 
-    public void setEpisodes(final ArrayList<EpisodeInput> episodes) {
+    public void setEpisodes(final ArrayList<Episodes> episodes) {
         this.episodes = episodes;
     }
 }

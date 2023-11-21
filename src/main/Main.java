@@ -80,7 +80,6 @@ public final class Main {
         Library lib = objectMapper.readValue(new File(LIBRARY_PATH), Library.class);
         CommandsInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH
                                     + filePathInput), CommandsInput[].class);
-        
         Menu menu = new Menu(commands, filePathOutput, lib);
         menu.actionsSpotify();
 

@@ -1,10 +1,16 @@
 package main.spotify.data;
 
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
 public final class Episodes {
     private String name;
     private Integer duration;
     private String description;
+    private int stopTime;
+    private int remainingTime = 0;
 
     public Episodes() {
     }
@@ -32,4 +38,9 @@ public final class Episodes {
     public void setDescription(final String description) {
         this.description = description;
     }
+
+    public void updateRemainingTime(int timePassed) {
+
+    }
+
 }

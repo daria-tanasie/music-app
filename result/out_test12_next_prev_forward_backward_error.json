@@ -122,9 +122,27 @@
   "timestamp" : 2200,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3220,
+  "stats" : {
+    "name" : "The Capitol Riot, 1 Year Later",
+    "remainedTime" : 225,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3920,
+  "stats" : {
+    "name" : "Inside the Vaccine Mandate Showdown",
+    "remainedTime" : 936,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -147,4 +165,9 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 4350,
+  "message" : "Please select a source before attempting to load."
 } ]

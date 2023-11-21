@@ -25,10 +25,15 @@
   "timestamp" : 240,
   "message" : "Successfully added to playlist."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 300,
+  "message" : "Please select a source before attempting to load."
+}, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 340,
-  "message" : "The loaded source is not a song."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "bob35",

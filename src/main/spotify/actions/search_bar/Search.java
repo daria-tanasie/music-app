@@ -80,7 +80,7 @@ public class Search extends CommandsInput{
                     }
                 }
 
-                if (filters.getLyrics() != null && song.getLyrics().contains(filters.getLyrics()) && cnt < 5) {
+                if (filters.getLyrics() != null && song.getLyrics().toLowerCase().contains(filters.getLyrics().toLowerCase()) && cnt < 5) {
                     nrFilters--;
                     if(!commandsOutput.results.contains(song.getName()) && nrFilters == 0) {
                         currentCommand.results.add(song.getName());

@@ -15,6 +15,7 @@ public final class Users {
     private String city;
     public ArrayList<Playlists> playlists;
     public ArrayList<Songs> likedSongs;
+    public ArrayList<Playlists> following;
 
     public Users() {}
 

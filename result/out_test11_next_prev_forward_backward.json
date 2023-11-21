@@ -175,9 +175,27 @@
   "timestamp" : 900,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1049,
+  "stats" : {
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2754,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1051,
+  "stats" : {
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2752,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -195,7 +213,25 @@
   "timestamp" : 1200,
   "message" : "Playback loaded successfully."
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1389,
+  "stats" : {
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2416,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
-  "timestamp" : 0
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1391,
+  "stats" : {
+    "name" : "Airbnb: Joe Gebbia",
+    "remainedTime" : 2414,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 } ]

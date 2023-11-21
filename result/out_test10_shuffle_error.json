@@ -217,11 +217,11 @@
   "user" : "bob35",
   "timestamp" : 3690,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Whole Lotta Love",
+    "remainedTime" : 15,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
