@@ -13,7 +13,6 @@ import java.util.Objects;
 
 @Getter @Setter
 public final class Search extends CommandsInput {
-    private CommandsInput.Filters filters;
     private ArrayList<Songs> songs;
     private ArrayList<Podcasts> podcasts;
     private ArrayList<Playlists> playlists;
@@ -22,15 +21,22 @@ public final class Search extends CommandsInput {
     private final int five = 5;
 
 
-    public Search(ArrayList<Songs> songs, ArrayList<Podcasts> podcasts,
-                  ArrayList<Playlists> playlists) {
+    public Search(final ArrayList<Songs> songs, final ArrayList<Podcasts> podcasts,
+                  final ArrayList<Playlists> playlists) {
         this.songs = songs;
         this.podcasts = podcasts;
         this.playlists = playlists;
     }
 
-    public void execute(CommandsInput command, CommandsInput.Filters filters,
-                        ArrayList<CommandsOutput> output) {
+    /**
+     * method that will perform the search
+     * @param command
+     * @param filters
+     * @param output
+     */
+
+    public void execute(final CommandsInput command, final CommandsInput.Filters filters,
+                        final ArrayList<CommandsOutput> output) {
         commandsOutput.results = new ArrayList<>();
         currentCommand.results = new ArrayList<>();
         int cnt = 0;
@@ -122,7 +128,7 @@ public final class Search extends CommandsInput {
                     }
                 }
             }
-            setCommandSong(command, currentCommand);
+            setCommandSong(command);
             currentCommand.setMessage("Search returned " + currentCommand.results.size()
                     + " results");
             output.add(currentCommand);
@@ -133,12 +139,12 @@ public final class Search extends CommandsInput {
             for (Podcasts podcast : podcasts) {
                 if (filters.getName() != null && podcast.getName()
                         .startsWith(filters.getName()) && cnt < five) {
-                    setCommandPodcast(command, commandsOutput, podcast);
+                    setCmdPodcast(command, podcast);
                     cnt++;
                 }
                 if (filters.getOwner() != null && Objects.equals(podcast
                         .getOwner(), filters.getOwner()) && cnt < five) {
-                    setCommandPodcast(command, commandsOutput, podcast);
+                    setCmdPodcast(command, podcast);
                     cnt++;
                 }
 
@@ -149,12 +155,12 @@ public final class Search extends CommandsInput {
             for (Playlists playlist : playlists) {
                 if (filters.getName() != null && playlist.getName().startsWith(filters.getName())
                         && cnt < five && playlist.getVisibility().equals("public")) {
-                    setCommandPlaylist(command, commandsOutput, playlist);
+                    setCmdPlaylist(command, playlist);
                     cnt++;
                 }
                 if (filters.getOwner() != null && Objects.equals(playlist.getOwner(), filters.
                         getOwner()) && cnt < five && playlist.getVisibility().equals("public")) {
-                    setCommandPlaylist(command, commandsOutput, playlist);
+                    setCmdPlaylist(command, playlist);
                     cnt++;
                 }
             }
@@ -168,7 +174,13 @@ public final class Search extends CommandsInput {
         output.add(commandsOutput);
     }
 
-    public int nrFilters(CommandsInput.Filters filters) {
+    /**
+     * method that will get the number of filters
+     * @param filters
+     * @return
+     */
+
+    public int nrFilters(final CommandsInput.Filters filters) {
         int nr = 0;
         if (filters.getOwner() != null) {
             nr++;
@@ -197,22 +209,37 @@ public final class Search extends CommandsInput {
         return nr;
     }
 
-    public void setCommandSong(CommandsInput command, CommandsOutput currentCommand) {
+    /**
+     * sets the output for a song result
+     * @param command
+     */
+
+    public void setCommandSong(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
         currentCommand.setUser(command.getUsername());
     }
 
-    public void setCommandPodcast(CommandsInput command, CommandsOutput commandsOutput,
-                                  Podcasts podcast) {
+    /**
+     * sets the output for a podcast result
+     * @param command
+     * @param podcast
+     */
+
+    public void setCmdPodcast(final CommandsInput command, final Podcasts podcast) {
         commandsOutput.setCommand(command.getCommand());
         commandsOutput.setTimestamp(command.getTimestamp());
         commandsOutput.setUser(command.getUsername());
         commandsOutput.results.add(podcast.getName());
     }
 
-    public void setCommandPlaylist(CommandsInput command,
-                                   CommandsOutput commandsOutput, Playlists playlist) {
+    /**
+     * sets the output for a playlist result
+     * @param command
+     * @param playlist
+     */
+
+    public void setCmdPlaylist(final CommandsInput command, final Playlists playlist) {
         commandsOutput.setCommand(command.getCommand());
         commandsOutput.setTimestamp(command.getTimestamp());
         commandsOutput.setUser(command.getUsername());

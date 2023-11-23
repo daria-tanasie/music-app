@@ -35,8 +35,8 @@ public class CommandsOutput {
     public CommandsOutput() {
     }
 
-    public CommandsOutput(String command, String username, int timestamp,
-                           String message, ArrayList<String> results) {
+    public CommandsOutput(final String command, final String username, final int timestamp,
+                           final String message, final ArrayList<String> results) {
         this.command = command;
         this.user = username;
         this.timestamp = timestamp;

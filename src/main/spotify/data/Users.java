@@ -20,6 +20,12 @@ public final class Users {
     public Users() {
     }
 
+    /**
+     * shows the liked songs of the current user
+     * @param command
+     * @param commandsOutputs
+     * @param users
+     */
     public void showPrefSongs(final CommandsInput command,
                               final ArrayList<CommandsOutput> commandsOutputs,
                               final ArrayList<Users> users) {
@@ -42,6 +48,12 @@ public final class Users {
         }
         commandsOutputs.add(currentCommand);
     }
+
+    /**
+     * sets the output for the current command
+     * @param command
+     * @param currentCommand
+     */
 
     public void set(final CommandsInput command, final CommandsOutput currentCommand) {
         currentCommand.setCommand(command.getCommand());

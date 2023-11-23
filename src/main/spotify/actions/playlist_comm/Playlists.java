@@ -10,7 +10,7 @@ import main.spotify.data.Users;
 import java.util.ArrayList;
 
 @Getter @Setter
-public class Playlists {
+public final class Playlists {
     private String name;
     private String owner;
     private int id;
@@ -19,15 +19,23 @@ public class Playlists {
     private int followers = 0;
     CommandsOutput currentCommand = new CommandsOutput();
 
-    public Playlists(String name, String owner) {
+    public Playlists(final String name, final String owner) {
         this.name = name;
         this.owner = owner;
     }
 
-    public Playlists() {}
+    public Playlists() {
+    }
 
-    public void showPlaylists(ArrayList<Users> users, CommandsInput command,
-                              ArrayList<CommandsOutput> commandsOutputs) {
+    /**
+     * method that will show the playlists of a user
+     * @param users
+     * @param command
+     * @param commandsOutputs
+     */
+
+    public void showPlaylists(final ArrayList<Users> users, final CommandsInput command,
+                              final ArrayList<CommandsOutput> commandsOutputs) {
 
         Users user = new Users();
 
@@ -38,7 +46,7 @@ public class Playlists {
             }
         }
 
-        set(command, currentCommand);
+        set(command);
 
         for (Playlists playlist : user.playlists) {
             CommandsOutput.Details details = new CommandsOutput.Details();
@@ -61,7 +69,12 @@ public class Playlists {
         commandsOutputs.add(currentCommand);
     }
 
-    public void set(CommandsInput command, CommandsOutput currentCommand) {
+    /**
+     * sets the output for the current command
+     * @param command
+     */
+
+    public void set(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
         currentCommand.setUser(command.getUsername());

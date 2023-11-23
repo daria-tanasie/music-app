@@ -8,20 +8,28 @@ import main.spotify.data.Users;
 import java.util.ArrayList;
 
 public final class AddRemoveInPlaylist {
-
-
     private final CommandsOutput currentCommand = new CommandsOutput();
 
+    /**
+     * method that execute the add/remove command
+     * @param command
+     * @param loaded
+     * @param commandsOutputs
+     * @param currentAudio
+     * @param users
+     * @param songs
+     */
 
     public void execute(final CommandsInput command, final boolean loaded,
                         final ArrayList<CommandsOutput> commandsOutputs,
                         final String currentAudio, final ArrayList<Users> users,
                         final ArrayList<Songs> songs) {
 
-        set(command, currentCommand);
+        set(command);
 
         if (!loaded) {
-            currentCommand.setMessage("Please load a source before adding to or removing from the playlist.");
+            currentCommand.setMessage("Please load a source before adding "
+                    + "to or removing from the playlist.");
             commandsOutputs.add(currentCommand);
             return;
         }
@@ -66,7 +74,12 @@ public final class AddRemoveInPlaylist {
         commandsOutputs.add(currentCommand);
     }
 
-    public void set(final CommandsInput command, final CommandsOutput currentCommand) {
+    /**
+     * sets the output for current command
+     * @param command
+     */
+
+    public void set(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
         currentCommand.setUser(command.getUsername());

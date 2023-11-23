@@ -6,23 +6,31 @@ import main.spotify.data.Users;
 
 import java.util.ArrayList;
 
-public class Follow {
+public final class Follow {
     private final CommandsOutput currentCommand = new CommandsOutput();
     private final ArrayList<Users> users;
     private final ArrayList<CommandsOutput> commandsOutputs;
 
-    public Follow(ArrayList<Users> users,
-                  ArrayList<CommandsOutput> commandsOutputs) {
+    public Follow(final ArrayList<Users> users,
+                  final ArrayList<CommandsOutput> commandsOutputs) {
         this.users = users;
         this.commandsOutputs = commandsOutputs;
     }
 
-    public void execute(CommandsInput command, String selectedPlaylist,
-                        ArrayList<Playlists> playlists, String currentAudio) {
+    /**
+     * executes the follow command
+     * @param command
+     * @param selectedPlaylist
+     * @param playlists
+     * @param currentAudio
+     */
 
-        set(currentCommand, command);
+    public void execute(final CommandsInput command, final String selectedPlaylist,
+                        final ArrayList<Playlists> playlists, final String currentAudio) {
 
-        if(currentAudio == null || !commandsOutputs.get(commandsOutputs.size() - 1)
+        set(command);
+
+        if (currentAudio == null || !commandsOutputs.get(commandsOutputs.size() - 1)
                                 .getCommand().equals("select")) {
             currentCommand.setMessage("Please select a source before following or unfollowing.");
             commandsOutputs.add(currentCommand);
@@ -69,7 +77,12 @@ public class Follow {
         commandsOutputs.add(currentCommand);
     }
 
-    public void set(CommandsOutput currentCommand, CommandsInput command) {
+    /**
+     * sets the output for the current command
+     * @param command
+     */
+
+    public void set(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setUser(command.getUsername());
         currentCommand.setTimestamp(command.getTimestamp());

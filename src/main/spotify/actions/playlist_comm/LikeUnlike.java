@@ -7,13 +7,25 @@ import main.spotify.data.Users;
 
 import java.util.ArrayList;
 
-public class LikeUnlike {
+public final class LikeUnlike {
     private final CommandsOutput currentCommand = new CommandsOutput();
 
-    public void execute(CommandsInput command, boolean loaded, ArrayList<CommandsOutput> commandsOutputs,
-                        String currentAudio, ArrayList<Users> users, ArrayList<Songs> songs) {
+    /**
+     * method that executes the like/unlike command
+     * @param command
+     * @param loaded
+     * @param commandsOutputs
+     * @param currentAudio
+     * @param users
+     * @param songs
+     */
 
-        set(command, currentCommand);
+    public void execute(final CommandsInput command, final boolean loaded,
+                        final ArrayList<CommandsOutput> commandsOutputs,
+                        final String currentAudio, final ArrayList<Users> users,
+                        final ArrayList<Songs> songs) {
+
+        set(command);
 
         if (!loaded) {
             currentCommand.setMessage("Please load a source before liking or unliking.");
@@ -57,7 +69,12 @@ public class LikeUnlike {
         commandsOutputs.add(currentCommand);
     }
 
-    public void set(CommandsInput command, CommandsOutput currentCommand) {
+    /**
+     * sets the output for the current command
+     * @param command
+     */
+
+    public void set(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
         currentCommand.setUser(command.getUsername());

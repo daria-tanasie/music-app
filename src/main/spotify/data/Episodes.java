@@ -39,8 +39,11 @@ public final class Episodes {
         this.description = description;
     }
 
-    public void updateRemainingTime(int timePassed) {
+    /**
+     * time passed parameter
+     * @param timePassed
+     */
+    public void updateRemainingTime(final int timePassed) {
 
     }
-
 }

@@ -11,15 +11,24 @@ public final class PlayPause extends CommandsInput {
     public PlayPause() {
     }
 
-    public void execute(CommandsInput command, ArrayList<CommandsOutput> commandsOutputs,
-                        boolean paused, final boolean loaded) {
+    /**
+     * method that will execute play/pause command
+     * @param command
+     * @param commandsOutputs
+     * @param paused
+     * @param loaded
+     */
+
+    public void execute(final CommandsInput command,
+                        final ArrayList<CommandsOutput> commandsOutputs,
+                        final boolean paused, final boolean loaded) {
         if (!loaded) {
-            setCommand(currentCommand, command);
-            currentCommand.setMessage("Please load a source before attempting " +
-                    "to pause or resume playback.");
+            setCommand(command);
+            currentCommand.setMessage("Please load a source before attempting "
+                    + "to pause or resume playback.");
         }
 
-        setCommand(currentCommand, command);
+        setCommand(command);
         if (paused) {
             currentCommand.setMessage("Playback resumed successfully.");
         } else {
@@ -28,7 +37,12 @@ public final class PlayPause extends CommandsInput {
         commandsOutputs.add(currentCommand);
     }
 
-    public void setCommand(final CommandsOutput currentCommand, final CommandsInput command) {
+    /**
+     * method that sets the output for the current command
+     * @param command
+     */
+
+    public void setCommand(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
         currentCommand.setUser(command.getUsername());

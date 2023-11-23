@@ -6,25 +6,30 @@ import main.spotify.data.Users;
 
 import java.util.ArrayList;
 
-public class SwitchVisibility {
+public final class SwitchVisibility {
     private final CommandsOutput currentCommand = new CommandsOutput();
     private final ArrayList<Users> users;
     private final ArrayList<CommandsOutput> commandsOutputs;
 
-    public SwitchVisibility(ArrayList<Users> users,
-                  ArrayList<CommandsOutput> commandsOutputs) {
+    public SwitchVisibility(final ArrayList<Users> users,
+                  final ArrayList<CommandsOutput> commandsOutputs) {
         this.users = users;
         this.commandsOutputs = commandsOutputs;
     }
 
-    public void execute(CommandsInput command) {
+    /**
+     * method that executes the switchVisibility command
+     * @param command
+     */
+
+    public void execute(final CommandsInput command) {
 
         Users currentUser = new Users();
         int pos = 0;
-        set(currentCommand, command);
+        set(command);
 
         for (Users user : users) {
-            if(user.getUsername().equals(command.getUsername())) {
+            if (user.getUsername().equals(command.getUsername())) {
                 currentUser = user;
             }
         }
@@ -54,7 +59,12 @@ public class SwitchVisibility {
         commandsOutputs.add(currentCommand);
     }
 
-    public void set(CommandsOutput currentCommand, CommandsInput command) {
+    /**
+     * sets the output for the current command
+     * @param command
+     */
+
+    public void set(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setUser(command.getUsername());
         currentCommand.setTimestamp(command.getTimestamp());

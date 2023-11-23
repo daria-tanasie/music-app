@@ -10,23 +10,29 @@ public final class Load extends CommandsInput {
     private final CommandsOutput currentCommand = new CommandsOutput();
     private final boolean loaded;
 
-    public Load(boolean loaded) {
+    public Load(final boolean loaded) {
     this.loaded = loaded;
     }
+
+    /**
+     * method that will execute the load command
+     * @param command
+     * @param commandsOutputs
+     */
 
     public void execute(final CommandsInput command,
                         final ArrayList<CommandsOutput> commandsOutputs) {
         int size = commandsOutputs.size();
 
         if (size == 0) {
-            setCommand(currentCommand, command);
+            setCommand(command);
             currentCommand.setMessage("Please select a source before attempting to load.");
             commandsOutputs.add(currentCommand);
             return;
         }
 
         if (loaded) {
-            setCommand(currentCommand, command);
+            setCommand(command);
             currentCommand.setMessage("Please select a source before attempting to load.");
             commandsOutputs.add(currentCommand);
             return;
@@ -35,21 +41,23 @@ public final class Load extends CommandsInput {
         CommandsOutput lastComm = commandsOutputs.get(size - 1);
 
         if (!Objects.equals(lastComm.getCommand(), "select")) {
-            setCommand(currentCommand, command);
+            setCommand(command);
             currentCommand.setMessage("Please select a source before attempting to load.");
             commandsOutputs.add(currentCommand);
             return;
         }
-//         TODO "You can't load an empty audio collection!"
-//        if(lastComm.results.isEmpty())
-//            return;
 
-        setCommand(currentCommand, command);
+        setCommand(command);
         currentCommand.setMessage("Playback loaded successfully.");
         commandsOutputs.add(currentCommand);
     }
 
-    public void setCommand(final CommandsOutput currentCommand, CommandsInput command) {
+    /**
+     * sets the output for the current command
+     * @param command
+     */
+
+    public void setCommand(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
         currentCommand.setUser(command.getUsername());

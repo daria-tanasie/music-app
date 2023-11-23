@@ -41,11 +41,17 @@ public final class Menu {
     private final String filePathOutput;
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    public Menu(CommandsInput[] input, String filePathOutput, Library library) {
+    public Menu(final CommandsInput[] input,
+                final String filePathOutput, final Library library) {
         this.input = input;
         this.filePathOutput = filePathOutput;
         this.library = library;
     }
+
+    /**
+     * acts like a menu for the commands, deciding which one to execute
+     * @throws IOException
+     */
 
     public void actionsSpotify() throws IOException {
         ArrayList<CommandsOutput> commandsOutput = new ArrayList<>();
@@ -89,7 +95,7 @@ public final class Menu {
                 case "select" -> {
                     Select select = new Select(currentAudio);
                     currentAudio = select.execute(input[i], commandsOutput);
-                    if (currentAudio != null && isPodcast(currentAudio, library)) {
+                    if (currentAudio != null && isPodcast(currentAudio)) {
                         for (Podcasts podcast : library.getPodcasts()) {
                             if (currentAudio.equals(podcast.getName())) {
                                 if (selectedPodcast == null) {
@@ -111,7 +117,7 @@ public final class Menu {
                             }
                         }
                     } else {
-                        if (currentAudio != null && isPlaylist(currentAudio, library)) {
+                        if (currentAudio != null && isPlaylist(currentAudio)) {
                             for (Playlists playlists1 : playlists) {
                                 if (currentAudio.equals(playlists1.getName())) {
                                     selectedPlaylist = playlists1.getName();
@@ -184,7 +190,7 @@ public final class Menu {
                         Playlists currentPlaylist = createPlaylist.create(input[i]);
                         playlists.add(currentPlaylist);
                         selectedPlaylist = currentPlaylist.getName();
-                        addPlaylist(input[i].getUsername(), currentPlaylist, users);
+                        addPlaylist(input[i].getUsername(), currentPlaylist);
                     }
                 }
                 case "addRemoveInPlaylist" -> {
@@ -240,13 +246,25 @@ public final class Menu {
         writeFile(commandsOutput);
     }
 
+    /**
+     * method used to write the commands in json file
+     * @param commandsOutput
+     * @throws IOException
+     */
+
     public void writeFile(final ArrayList<CommandsOutput> commandsOutput) throws IOException {
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), commandsOutput);
     }
 
-    public void addPlaylist(final String name, Playlists playlist, ArrayList<Users> users) {
+    /**
+     * adds a playlist to user class
+     * @param name
+     * @param playlist
+     */
+
+    public void addPlaylist(final String name, final Playlists playlist) {
         for (Users user : users) {
             if (user.getUsername().equals(name)) {
                 user.getPlaylists().add(playlist);
@@ -255,7 +273,13 @@ public final class Menu {
         }
     }
 
-    public boolean isPodcast(final String currentAudio, Library library) {
+    /**
+     * returns true if currentAudio is podcast, false otherwise
+     * @param currentAudio
+     * @return
+     */
+
+    public boolean isPodcast(final String currentAudio) {
         boolean isPodcast = false;
         if (currentAudio != null) {
             for (Podcasts podcast : library.getPodcasts()) {
@@ -268,7 +292,13 @@ public final class Menu {
         return isPodcast;
     }
 
-    public boolean isPlaylist(final String currentAudio, Library library) {
+    /**
+     * returns true if currentAudio, false otherwise
+     * @param currentAudio
+     * @return
+     */
+
+    public boolean isPlaylist(final String currentAudio) {
         boolean isPlaylist = true;
         if (currentAudio != null) {
             for (Songs song : library.getSongs()) {

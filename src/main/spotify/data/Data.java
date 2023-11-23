@@ -24,11 +24,4 @@ public final class Data {
     private Data() {
 
     }
-
-    public static Data getDataBase() {
-        if (dataBase == null) {
-            dataBase = new Data();
-        }
-        return dataBase;
-    }
 }

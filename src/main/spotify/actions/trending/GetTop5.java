@@ -12,11 +12,17 @@ public final class GetTop5 {
     private final ArrayList<CommandsOutput> commandsOutputs;
     private final int five = 5;
 
-    public GetTop5(ArrayList<CommandsOutput> commandsOutputs) {
+    public GetTop5(final ArrayList<CommandsOutput> commandsOutputs) {
         this.commandsOutputs = commandsOutputs;
     }
 
-    public void executeP(CommandsInput command, ArrayList<Playlists> playlists) {
+    /**
+     * methods that gets the top 5 playlists
+     * @param command
+     * @param playlists
+     */
+
+    public void executeP(final CommandsInput command, final ArrayList<Playlists> playlists) {
         currentCommand.result = new ArrayList<>();
         ArrayList<Playlists> sortedPlaylists;
         sortedPlaylists = playlists;
@@ -41,11 +47,17 @@ public final class GetTop5 {
         for (int i = 0; i < size; i++) {
             currentCommand.result.add(sortedPlaylists.get(i).getName());
         }
-        set(currentCommand, command);
+        set(command);
         commandsOutputs.add(currentCommand);
     }
 
-    public void executeS(CommandsInput command, ArrayList<Songs> songs) {
+    /**
+     * method that gets the 5 most liked songs
+     * @param command
+     * @param songs
+     */
+
+    public void executeS(final CommandsInput command, final ArrayList<Songs> songs) {
         currentCommand.result = new ArrayList<>();
         ArrayList<Songs> sortedSongs = new ArrayList<>();
         Songs aux;
@@ -79,11 +91,16 @@ public final class GetTop5 {
         for (int i = 0; i < five; i++) {
             currentCommand.result.add(sortedSongs.get(i).getName());
         }
-        set(currentCommand, command);
+        set(command);
         commandsOutputs.add(currentCommand);
     }
 
-    public void set(CommandsOutput currentCommand, CommandsInput command) {
+    /**
+     * sets the output for the current command
+     * @param command
+     */
+
+    public void set(final CommandsInput command) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
     }
