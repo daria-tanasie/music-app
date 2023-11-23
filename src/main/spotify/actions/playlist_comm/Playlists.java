@@ -1,12 +1,5 @@
 package main.spotify.actions.playlist_comm;
 
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.node.ArrayNode;
 import lombok.Getter;
 import lombok.Setter;
 import main.spotify.commands.CommandsInput;
@@ -24,6 +17,7 @@ public class Playlists {
     public ArrayList<Songs> songs;
     private String visibility = "public";
     private int followers = 0;
+    CommandsOutput currentCommand = new CommandsOutput();
 
     public Playlists(String name, String owner) {
         this.name = name;
@@ -33,40 +27,36 @@ public class Playlists {
     public Playlists() {}
 
     public void showPlaylists(ArrayList<Users> users, CommandsInput command,
-                              ArrayList<CommandsOutput> commandsOutputs, ObjectMapper objectMapper) throws JsonProcessingException {
+                              ArrayList<CommandsOutput> commandsOutputs) {
 
         Users user = new Users();
 
-        for(Users iter : users) {
-            if(iter.getUsername().equals(command.getUsername())) {
+        for (Users iter : users) {
+            if (iter.getUsername().equals(command.getUsername())) {
                 user = iter;
                 break;
             }
         }
 
-        ArrayList<Playlists> playlists = user.playlists;
-
-        CommandsOutput currentCommand = new CommandsOutput();
         set(command, currentCommand);
 
-        CommandsOutput.Details details = new CommandsOutput.Details();
-        details.songs = new ArrayList<>();
-
-        for(Playlists playlist : playlists) {
+        for (Playlists playlist : user.playlists) {
+            CommandsOutput.Details details = new CommandsOutput.Details();
+            details.songs = new ArrayList<>();
             details.setName(playlist.getName());
-            if(playlist.songs != null)
-                for(int i = 0; i < playlist.songs.size(); i++) {
-                    details.songs.add(playlist.songs.get(i).getName());
-                }
+
+
+            for (int i = 0; i < playlist.songs.size(); i++) {
+                details.songs.add(playlist.songs.get(i).getName());
+            }
+
             details.setVisibility(playlist.getVisibility());
             details.setFollowers(playlist.getFollowers());
 
-            if(currentCommand.result == null) {
+            if (currentCommand.result == null) {
                 currentCommand.result = new ArrayList<>();
             }
             currentCommand.result.add(details);
-            //currentCommand.res.add(cleanJson);
-            //currentCommand.res.add();
         }
         commandsOutputs.add(currentCommand);
     }

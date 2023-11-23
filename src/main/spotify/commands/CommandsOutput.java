@@ -2,10 +2,7 @@ package main.spotify.commands;
 
 import java.util.ArrayList;
 
-import com.fasterxml.jackson.annotation.*;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonValueInstantiator;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,7 +17,7 @@ public class CommandsOutput {
     public ArrayList<Object> result;
 
     @Getter @Setter
-    public static class Stats{
+    public static class Stats {
         private String name;
         private int remainedTime;
         private String repeat;
@@ -35,7 +32,8 @@ public class CommandsOutput {
         private String visibility;
         private int followers;
     }
-    public CommandsOutput() {}
+    public CommandsOutput() {
+    }
 
     public CommandsOutput(String command, String username, int timestamp,
                            String message, ArrayList<String> results) {

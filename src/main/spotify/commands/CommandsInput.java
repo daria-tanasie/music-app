@@ -1,7 +1,6 @@
 package main.spotify.commands;
 
 import java.util.ArrayList;
-import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,7 +17,7 @@ public class CommandsInput {
     private Filters filters;
 
     @Getter @Setter
-    public static class Filters{
+    public static class Filters {
         private ArrayList<String> tags;
         private String lyrics;
         private String owner;

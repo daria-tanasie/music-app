@@ -29,15 +29,16 @@ public class LikeUnlike {
             }
         }
 
-        //ArrayList<Songs> likedSongs = user.likedSongs;
-        if (user.likedSongs == null)
+        if (user.likedSongs == null) {
             user.likedSongs = new ArrayList<>();
+        }
 
         for (Songs song : songs) {
             if (song.getName().equals(currentAudio)) {
                 for (int i = 0; i < user.likedSongs.size(); i++) {
                     if (user.likedSongs.get(i).equals(song)) {
                         user.likedSongs.remove(i);
+                        song.setLikes(song.getLikes() - 1);
                         currentCommand.setMessage("Unlike registered successfully.");
                         commandsOutputs.add(currentCommand);
                         return;
@@ -45,6 +46,7 @@ public class LikeUnlike {
                 }
 
                 user.likedSongs.add(song);
+                song.setLikes(song.getLikes() + 1);
                 currentCommand.setMessage("Like registered successfully.");
                 commandsOutputs.add(currentCommand);
                 return;

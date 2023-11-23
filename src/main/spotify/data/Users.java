@@ -17,29 +17,33 @@ public final class Users {
     public ArrayList<Songs> likedSongs;
     public ArrayList<Playlists> following;
 
-    public Users() {}
+    public Users() {
+    }
 
-    public void showPreferredSongs(CommandsInput command, ArrayList<CommandsOutput> commandsOutputs, ArrayList<Users> users) {
+    public void showPrefSongs(final CommandsInput command,
+                              final ArrayList<CommandsOutput> commandsOutputs,
+                              final ArrayList<Users> users) {
 
         CommandsOutput currentCommand = new CommandsOutput();
         currentCommand.result = new ArrayList<>();
         set(command, currentCommand);
         Users user = new Users();
 
-        for(Users iter : users) {
-            if(iter.getUsername().equals(command.getUsername())) {
+        for (Users iter : users) {
+            if (iter.getUsername().equals(command.getUsername())) {
                 user = iter;
             }
         }
 
-        if(user.likedSongs != null)
-            for(Songs song : user.likedSongs) {
+        if (user.likedSongs != null) {
+            for (Songs song : user.likedSongs) {
                 currentCommand.result.add(song.getName());
             }
+        }
         commandsOutputs.add(currentCommand);
     }
 
-    public void set(CommandsInput command, CommandsOutput currentCommand) {
+    public void set(final CommandsInput command, final CommandsOutput currentCommand) {
         currentCommand.setCommand(command.getCommand());
         currentCommand.setTimestamp(command.getTimestamp());
         currentCommand.setUser(command.getUsername());

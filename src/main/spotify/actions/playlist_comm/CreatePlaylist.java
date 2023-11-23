@@ -22,9 +22,9 @@ public class CreatePlaylist extends CommandsInput {
         boolean ok = true;
         int userPos = 0;
         setCommand(currentCommand, command);
-        for(Users user : users) {
-            if(user.getUsername().equals(command.getUsername())) {
-                if(user.playlists != null)
+        for (Users user : users) {
+            if (user.getUsername().equals(command.getUsername())) {
+                if (user.playlists != null)
                     for (Playlists playlistsIter : user.playlists) {
                         if (playlistsIter.getName().equals(command.getPlaylistName())) {
                             ok = false;
@@ -35,10 +35,8 @@ public class CreatePlaylist extends CommandsInput {
             }
             userPos++;
         }
-        if(ok) {
-            Playlists playlist = new Playlists(command.getPlaylistName(), users.get(userPos).getUsername());
-            
-            if(users.get(userPos).playlists == null) {
+        if (ok) {
+            if (users.get(userPos).playlists == null) {
                 users.get(userPos).playlists = new ArrayList<>();
             }
             //users.get(userPos).playlists.add(playlist);
