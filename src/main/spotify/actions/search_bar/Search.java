@@ -122,7 +122,6 @@ public final class Search extends CommandsInput {
                         nrFilters--;
                         if (!commandsOutput.results.contains(song.getName()) && nrFilters == 0) {
                             currentCommand.results.add(song.getName());
-                            //setCommandSong(command, currentCommand);
                             cnt++;
                         }
                     }

@@ -83,8 +83,5 @@ public final class Main {
         Menu menu = new Menu(commands, filePathOutput, lib);
         menu.actionsSpotify();
 
-
-//        ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
-//        objectWriter.writeValue(new File(filePathOutput), outputs);
     }
 }
