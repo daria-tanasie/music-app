@@ -121,6 +121,25 @@ Fisierul trending/GetTop5.java:
       au mai mult de 0 likeuri si apoi se sorteaza sortedSongs dupa nr de likeuri. La final, daca nu exista 5 melodii
       cu mai mult de 0 likeuri, se completeaza cu cele cu 0 si se pun in array ul result cele 5.
 
+Fisierul player/NextPrev.java:
+        In aceasta clasa vom avea metoda executePrev() ce se apeleaza la comanda "prev". Daca playlistul este null,
+      se seteaza mesajul si se iese din metoda. Altfel, se cauta melodia curenta in playlist, iar apoi se verifica daca mai
+      sunt melodii anterioare sau daca a trecut mai mult de o secunda de la inceperea melodiei. In caz afirmativ, se iese din
+      loop si se seteaza mesajul, playerul ramanand la melodia curenta. Daca totusi n a trecut o secunda si mai sunt melodii in
+      spate, se trece la cea anterioara.
+        Metoda execute next se apeleaza pt comanda "next". Daca avem un playlist, se cauta acesta si apoi se verifica daca
+      mai exista o melodie dupa el, iar in caz afirmativ, se trece la urmatoarea. Daca in schimb avem un podcast, vom
+      cauta episodul curent si daca exista un episod dupa el, trecem la urmatorul.
+        La intoarcerea in main, pt fiecare comanda vom reseta timpul trecut (timePassed) daca next sau prev intorc null.
+
+Fisierul player/ForwardBackward.java:
+        In acest fisier avem metoda executeFw() care se executa la comanda forward. Verificam intai daca avem o sursa loaded,
+      iar in caz ca nu se seteaza mesajul. Daca avem o sursa, verificam sa fie podcast si cautam episodul, iar apoi setam
+      timpul cu 90 de secunde mai tarziu si il returnam. Daca nu este podcast, se seteaza mesajul si se iese.
+        Mai avem metoda executeBw() care se apeleaza pentru comanda backward. Se verifica sa fie o sursa loaded ca mai devreme.
+      Se verifica apoi sa fie podcast si cautam episodul. Setam apoi timpul cu 90 de secunde inapoi si il returnam. In cazul
+      in care nu avem un podcast, se seteaza mesajul si se iese.
+
         La final in clasa Menu, mai avem doar de afisat toate comenzile cu ajutorul metodei writeFile() care afiseaza
       comenzile cu ajutorul lui objectWriter. La fiecare comanda se adauga la array ul de comenzi de output
       (commandsOutput) comanda curenta pt a fi afisata la final.

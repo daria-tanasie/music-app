@@ -1,7 +1,7 @@
 Starting audit...
-[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\Menu.java:58:5: Method length is 224 lines (max allowed is 150). [MethodLength]
-[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\player\ForwardBackward.java:34:23: Parameter time should be final. [FinalParameters]
-[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\player\ForwardBackward.java:70:26: Parameter time should be final. [FinalParameters]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\Menu.java:58:5: Method length is 223 lines (max allowed is 150). [MethodLength]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\player\ForwardBackward.java:33:52: Parameter time should be final. [FinalParameters]
+[ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\player\ForwardBackward.java:69:26: Parameter time should be final. [FinalParameters]
 [ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\player\NextPrev.java:14:32: Variable 'playlists' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\player\NextPrev.java:34:31: Parameter currentAudio should be final. [FinalParameters]
 [ERROR] D:\poo\tema\etapa1\.\src\main\spotify\actions\player\NextPrev.java:34:52: Parameter time should be final. [FinalParameters]

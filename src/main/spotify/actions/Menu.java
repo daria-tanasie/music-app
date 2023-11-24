@@ -264,8 +264,7 @@ public final class Menu {
                 case "forward" -> {
                     ForwardBackward forward = new ForwardBackward(commandsOutput,
                             library.getPodcasts());
-                    timePassed = forward.executeFw(input[i], loaded, currentAudio,
-                            selectedPodcast, timePassed);
+                    timePassed = forward.executeFw(input[i], loaded, selectedPodcast, timePassed);
                 }
                 case "backward" -> {
                     ForwardBackward backward = new ForwardBackward(commandsOutput,

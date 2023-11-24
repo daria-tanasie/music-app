@@ -23,15 +23,13 @@ public class ForwardBackward {
      * method to forward the episode
      * @param command
      * @param loaded
-     * @param currentAudio
      * @param selectedPodcast
      * @param time
      * @return
      */
 
 public int executeFw(final CommandsInput command, final boolean loaded,
-                      final String currentAudio, final String selectedPodcast,
-                      int time) {
+                     final String selectedPodcast, int time) {
 
     set(command);
 
