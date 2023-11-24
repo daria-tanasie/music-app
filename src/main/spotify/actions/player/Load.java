@@ -4,7 +4,6 @@ import main.spotify.commands.CommandsInput;
 import main.spotify.commands.CommandsOutput;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public final class Load extends CommandsInput {
     private final CommandsOutput currentCommand = new CommandsOutput();
@@ -17,10 +16,11 @@ public final class Load extends CommandsInput {
     /**
      * method that will execute the load command
      * @param command
+     * @param currentAudio
      * @param commandsOutputs
      */
 
-    public void execute(final CommandsInput command,
+    public void execute(final CommandsInput command, final String currentAudio,
                         final ArrayList<CommandsOutput> commandsOutputs) {
         int size = commandsOutputs.size();
 
@@ -38,9 +38,7 @@ public final class Load extends CommandsInput {
             return;
         }
 
-        CommandsOutput lastComm = commandsOutputs.get(size - 1);
-
-        if (!Objects.equals(lastComm.getCommand(), "select")) {
+        if (currentAudio == null) {
             setCommand(command);
             currentCommand.setMessage("Please select a source before attempting to load.");
             commandsOutputs.add(currentCommand);

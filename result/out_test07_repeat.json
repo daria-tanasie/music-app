@@ -46,32 +46,32 @@
   "user" : "alice22",
   "timestamp" : 257,
   "stats" : {
-    "name" : "Dream Chaser",
-    "remainedTime" : 173,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
-}, {
-  "command" : "repeat",
-  "user" : "alice22",
-  "timestamp" : 258,
-  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 258,
   "message" : "Repeat mode changed to repeat infinite."
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 258,
+  "message" : "Repeat mode changed to no repeat."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 1000,
   "stats" : {
-    "name" : "Dream Chaser",
-    "remainedTime" : 45,
-    "repeat" : "Repeat Infinite",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "createPlaylist",
@@ -231,11 +231,11 @@
   "user" : "alice22",
   "timestamp" : 2099,
   "stats" : {
-    "name" : "99 Problems",
-    "remainedTime" : 225,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",

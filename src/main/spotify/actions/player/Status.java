@@ -31,7 +31,6 @@ public final class Status extends CommandsInput {
     /**
      * method that will execute the status command
      * @param time
-     * @param lastTime
      * @param command
      * @param paused
      * @param shuffle
@@ -43,7 +42,7 @@ public final class Status extends CommandsInput {
      * @return
      */
 
-    public String execute(final int time, final int lastTime, final CommandsInput command,
+    public String execute(final int time, final CommandsInput command,
                           final boolean paused, final boolean shuffle,
                           String repeat, String currentAudio,
                           final String selectedPodcast, final String selectedPlaylist,
@@ -54,28 +53,19 @@ public final class Status extends CommandsInput {
         if (currentAudio == null) {
             set(command, paused, shuffle, repeat, currentAudio, duration);
             commandsOutputs.add(currentCommand);
-            return repeat;
+            return currentAudio;
         }
 
         if (!loaded && selectedPlaylist != null) {
             set(command, paused, shuffle, repeat, currentAudio, duration);
             commandsOutputs.add(currentCommand);
-            return repeat;
+            return currentAudio;
         }
         if (isSong(currentAudio) && selectedPlaylist == null) {
             ArrayList<Songs> songs = library.getSongs();
             for (Songs song : songs) {
                 if (Objects.equals(song.getName(), currentAudio)) {
                     duration = song.getDuration() - time;
-                    if (repeat.equals("Repeat Once") && duration <= 0) {
-                        duration = duration + song.getDuration();
-                        repeat = "No Repeat";
-                    }
-                    if (repeat.equals("Repeat Infinite") && duration <= 0) {
-                        while (duration <= 0) {
-                            duration = duration + song.getDuration();
-                        }
-                    }
                     set(command, paused, shuffle, repeat, currentAudio, duration);
                     break;
                 }
@@ -88,7 +78,7 @@ public final class Status extends CommandsInput {
                     for (Episodes episode : podcast.getEpisodes()) {
                         if (episode.getName().equals(currentAudio)) {
                             duration = episode.getDuration() - time;
-                            if (duration <= 0 && podcast.getEpisodes().get(pos + 1) != null) {
+                            if (duration <= 0 && podcast.getEpisodes().size() > pos + 1) {
                                 currentAudio = podcast.getEpisodes().get(pos + 1).getName();
                                 duration = podcast.getEpisodes().get(pos + 1).getDuration()
                                         + duration;
@@ -106,35 +96,10 @@ public final class Status extends CommandsInput {
                     for (Songs song : playlist.songs) {
                         if (song.getName().equals(currentAudio)) {
                             duration = song.getDuration() - time;
-                            if (duration <= 0 && repeat.equals("Repeat Current Song")) {
-                                duration = duration + song.getDuration();
-                                set(command, paused, shuffle, repeat, currentAudio, duration);
-                                break;
-                            }
-                            if (repeat.equals("Repeat Current Song")) {
-                                duration = lastTime - time;
-                                set(command, paused, shuffle, repeat, currentAudio, duration);
-                                break;
-                            }
-
-                            if (duration <= 0 && repeat.equals("Repeat All")) {
-                                int iter = pos + 1;
-                                while (duration <= 0) {
-                                    currentAudio = playlist.songs.get(iter).getName();
-                                    duration = playlist.songs.get(iter).getDuration() + duration;
-                                    iter++;
-                                    if (iter >= playlist.songs.size()) {
-                                        iter = 0;
-                                    }
-                                }
-                                set(command, paused, shuffle, repeat, currentAudio, duration);
-                                break;
-                            }
-                            if (duration <= 0 && playlist.songs.get(pos + 1) != null) {
+                            if (duration <= 0 && playlist.songs.size() > pos + 1) {
                                 currentAudio = playlist.songs.get(pos + 1).getName();
                                 duration = playlist.songs.get(pos + 1).getDuration() + duration;
                             }
-
                             set(command, paused, shuffle, repeat, currentAudio, duration);
                             break;
                         }
@@ -144,7 +109,7 @@ public final class Status extends CommandsInput {
             }
         }
         commandsOutputs.add(currentCommand);
-        return repeat;
+        return currentAudio;
     }
 
     /**
@@ -167,7 +132,7 @@ public final class Status extends CommandsInput {
         stats.setShuffle(shuffle);
         stats.setRepeat(repeat);
         stats.setPaused(paused);
-        if (remaining <= 0) {
+        if (remaining <= 0 || !loaded) {
             remaining = 0;
             stats.setName("");
             stats.setPaused(true);

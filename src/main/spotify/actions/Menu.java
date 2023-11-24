@@ -4,7 +4,9 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import main.spotify.actions.player.ForwardBackward;
 import main.spotify.actions.player.Load;
+import main.spotify.actions.player.NextPrev;
 import main.spotify.actions.player.PlayPause;
 import main.spotify.actions.player.Repeat;
 import main.spotify.actions.player.Status;
@@ -55,9 +57,9 @@ public final class Menu {
 
     public void actionsSpotify() throws IOException {
         ArrayList<CommandsOutput> commandsOutput = new ArrayList<>();
-        boolean paused = false, loaded = false, shuffle = false;
+        boolean paused = false, loaded = false, shuffle = false, selected = false;
         String repeat = "No Repeat";
-        int repeatCode = 0, lastTime = 0;
+        int repeatCode = 0;
         String currentAudio = null;
         String currEp = null;
         int nrOfEp = 0, time;
@@ -100,6 +102,7 @@ public final class Menu {
                             if (currentAudio.equals(podcast.getName())) {
                                 if (selectedPodcast == null) {
                                     nrOfEp = 0;
+                                    timePassed = 0;
                                 } else {
                                     for (Podcasts podcast1 : library.getPodcasts()) {
                                         if (selectedPodcast.equals(podcast1.getName())) {
@@ -138,7 +141,7 @@ public final class Menu {
                     repeat = "No Repeat";
                     repeatCode = 0;
                     Load load = new Load(loaded);
-                    load.execute(input[i], commandsOutput);
+                    load.execute(input[i], currentAudio, commandsOutput);
                     if (currentAudio != null) {
                         loaded = true;
                     }
@@ -166,7 +169,7 @@ public final class Menu {
                 }
                 case "status" -> {
                     Status status = new Status(library, commandsOutput, loaded);
-                    Repeat updateRepeat = new Repeat();
+
                     if (!paused) {
                         prev = curr;
                         curr = input[i].getTimestamp();
@@ -175,14 +178,12 @@ public final class Menu {
                     time = timePassed;
 
                     if (currentAudio != null) {
-                        repeat = status.execute(time, lastTime, input[i], paused, shuffle, repeat,
+                        currentAudio = status.execute(time, input[i], paused, shuffle, repeat,
                                         currentAudio, selectedPodcast, selectedPlaylist, playlists);
                     } else {
-                        repeat = status.execute(time, lastTime, input[i], false, false, repeat,
+                        currentAudio = status.execute(time, input[i], false, false, repeat,
                                     null, selectedPodcast, selectedPlaylist, playlists);
                     }
-
-                    repeatCode = updateRepeat.getRepeatCom(repeat);
                 }
                 case "createPlaylist" -> {
                     CreatePlaylist createPlaylist = new CreatePlaylist();
@@ -194,7 +195,6 @@ public final class Menu {
                     }
                 }
                 case "addRemoveInPlaylist" -> {
-
                     AddRemoveInPlaylist addRemove = new AddRemoveInPlaylist();
                     addRemove.execute(input[i], loaded, commandsOutput,
                                         currentAudio, users, library.getSongs());
@@ -238,6 +238,40 @@ public final class Menu {
                 case "getTop5Songs" -> {
                     GetTop5 getTop5 = new GetTop5(commandsOutput);
                     getTop5.executeS(input[i], library.getSongs());
+                }
+                case "prev" -> {
+                    NextPrev prevC = new NextPrev(commandsOutput, library.getPodcasts(),
+                            playlists);
+                    currentAudio = prevC.executePrev(input[i], selectedPlaylist,
+                            currentAudio, timePassed);
+                    if (currentAudio != null) {
+                        prev = curr;
+                        curr = input[i].getTimestamp();
+                        timePassed = 0;
+                    }
+                }
+                case "next" -> {
+                    NextPrev nextC = new NextPrev(commandsOutput, library.getPodcasts(),
+                            playlists);
+                    currentAudio = nextC.executeNext(input[i], selectedPlaylist,
+                            currentAudio, selectedPodcast);
+                    if (currentAudio != null) {
+                        prev = curr;
+                        curr = input[i].getTimestamp();
+                       timePassed = 0;
+                    }
+                }
+                case "forward" -> {
+                    ForwardBackward forward = new ForwardBackward(commandsOutput,
+                            library.getPodcasts());
+                    timePassed = forward.executeFw(input[i], loaded, currentAudio,
+                            selectedPodcast, timePassed);
+                }
+                case "backward" -> {
+                    ForwardBackward backward = new ForwardBackward(commandsOutput,
+                            library.getPodcasts());
+                    timePassed = backward.executeBw(input[i], loaded, currentAudio,
+                            selectedPodcast, timePassed);
                 }
                 default -> {
                 }
