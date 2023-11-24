@@ -223,14 +223,6 @@ public final class Menu {
                         curr = input[i].getTimestamp();
                     }
                 }
-                case "follow" -> {
-                    Follow follow = new Follow(users, commandsOutput);
-                    follow.execute(input[i], selectedPlaylist, playlists, currentAudio);
-                }
-                case "switchVisibility" -> {
-                    SwitchVisibility switchV = new SwitchVisibility(users, commandsOutput);
-                    switchV.execute(input[i]);
-                }
                 case "getTop5Playlists" -> {
                     GetTop5 getTop5 = new GetTop5(commandsOutput);
                     getTop5.executeP(input[i], playlists);
