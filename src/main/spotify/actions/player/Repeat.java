@@ -79,4 +79,59 @@ public final class Repeat {
         currentCommand.setTimestamp(command.getTimestamp());
     }
 
+    /**
+     * method that will give the repeat stage based on the code(0, 1, 2)
+     * @param repeatCode
+     * @param currentAudio
+     * @param repeat
+     * @param selectedPlaylist
+     * @return
+     */
+
+    public String getRepeat(final int repeatCode, final String currentAudio,
+                            String repeat, final String selectedPlaylist) {
+        if (currentAudio == null) {
+            return repeat;
+        }
+        switch (repeatCode) {
+            case 0 -> {
+                repeat = "No Repeat";
+            }
+            case 1 -> {
+                if (selectedPlaylist != null) {
+                    repeat = "Repeat All";
+                } else {
+                    repeat = "Repeat Once";
+                }
+            }
+            case 2 -> {
+                if (selectedPlaylist != null) {
+                    repeat = "Repeat Current Song";
+                } else {
+                    repeat = "Repeat Infinite";
+                }
+            }
+            default -> {
+
+            }
+        }
+        return repeat;
+    }
+
+    /**
+     * method that will return the code of repeat based on the string
+     * @param repeat
+     * @return
+     */
+
+    public int getRepeatCom(final String repeat) {
+        if (repeat.equals("No Repeat")) {
+            return 0;
+        }
+        if (repeat.equals("Repeat Once") || repeat.equals("Repeat All")) {
+            return 1;
+        }
+        return 2;
+    }
+
 }
